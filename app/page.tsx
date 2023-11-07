@@ -1,13 +1,17 @@
 import { Hero } from "./Hero";
 import Navbar from "./Navbar";
 import { PrimaryFeatures } from "./PrimaryFeatures";
+import SavingsCalculator from "./SavingsCalculator";
+import SectionThree from "./SectionThree";
+import SectionTwo from "./SectionTwo";
 export default function Home() {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
-      <div className="p-32 text-center">{" < section 2 > "}</div>
-      <PrimaryFeatures />
-    </>
+      <SectionTwo />
+      <SavingsCalculator />
+      <SectionThree />
+    </div>
   );
 }
