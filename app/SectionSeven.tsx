@@ -10,7 +10,7 @@ export default function SectionSeven() {
         </b>
       </h2>
       <button className="bg-white text-black hover:bg-[#3c1e85] dark:hover:text-white hover:bg-main transition-colors font-bold px-4 md:px-8 py-4 leading-none rounded-full border-none text-xl">
-        <a href="/register"> Get started for Free </a>
+        <a href="/"> Get started for Free </a>
       </button>
     </div>
   );

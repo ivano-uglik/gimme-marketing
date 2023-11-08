@@ -16,7 +16,7 @@ export default function SectionSix() {
           </p>
           <div className="mx-auto md:mx-0">
             <button className="bg-[#3c1e85] text-white hover:bg-black dark:hover:text-white hover:bg-main transition-colors font-bold px-4 md:px-8 py-4 leading-none rounded-full border-none">
-              <a href="/register"> Customize your Online Restaurant Now </a>
+              <a href="/"> Customize your Online Restaurant Now </a>
             </button>
           </div>
         </div>

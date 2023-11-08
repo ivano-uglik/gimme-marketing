@@ -9,8 +9,8 @@ export default function Navbar() {
       />
       <div className="hidden md:flex items-center gap-8">
         <ul className="flex gap-8 items-center text-lg">
-          <li className="opacity-50">
-            <a href="#">Overview</a>
+          <li>
+            <a href="/">Overview</a>
           </li>
           <li className="opacity-50">
             <a href="#">Use Cases</a>
@@ -21,8 +21,8 @@ export default function Navbar() {
           <li className="opacity-50">
             <a href="#">About us</a>
           </li>
-          <li>
-            <a href="/">Blog</a>
+          <li className="opacity-50">
+            <a href="https://gimme-blog.vercel.app/">Blog</a>
           </li>
           <li className="opacity-50">
             <a href="#">Pricing</a>

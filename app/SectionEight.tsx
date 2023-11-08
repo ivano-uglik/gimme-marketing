@@ -25,9 +25,7 @@ export default function SectionEight() {
           </p>
           <div className="mx-auto md:mx-0">
             <button className="bg-[#3c1e85] text-white hover:bg-black dark:hover:text-white hover:bg-main transition-colors font-bold px-4 md:px-8 py-4 leading-none rounded-full border-none">
-              <a href="/register">
-                Create Loyalty Programs For Your Restaurant
-              </a>
+              <a href="/">Create Loyalty Programs For Your Restaurant</a>
             </button>
           </div>
         </div>

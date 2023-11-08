@@ -29,7 +29,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <button className="bg-[#3c1e85] text-white hover:bg-black dark:hover:text-white hover:bg-main transition-colors font-bold px-8 py-4 leading-none rounded-full border-none">
-          <Link href="/register">Sign up Free </Link>
+          <Link href="/">Sign up Free </Link>
         </button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

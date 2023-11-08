@@ -9,6 +9,7 @@ import SectionTwo from "./SectionTwo";
 import SectionFive from "./SectionFive";
 import SectionSeven from "./SectionSeven";
 import SectionEight from "./SectionEight";
+import FAQ from "./FAQ";
 export default function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function Home() {
       <SectionSix />
       <SectionSeven />
       <SectionEight />
+      <FAQ />
     </div>
   );
 }
