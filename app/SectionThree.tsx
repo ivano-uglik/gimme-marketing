@@ -5,17 +5,17 @@ import industryRetail from "@/public/industry-retail.webp";
 
 export default function SectionThree() {
   return (
-    <div className="p-8">
+    <div>
       <div className="flex flex-col items-center gap-4">
-        <h2 className="text-3xl font-bold">
+        <h2 className="text-3xl font-bold text-center">
           Solutions for Businesses of All Sizes: {"We've Got You Covered"}
         </h2>
-        <h3 className="text-xl opacity-75">
+        <h3 className="text-xl opacity-75 text-center">
           Our goal is to simplify the daily life of restaurant owners and
           increase profits.
         </h3>
       </div>
-      <div className="p-2 md:p-20 grid text-white grid-cols-1 md:grid-cols-3 gap-3 md:grid-rows-4 xl:mx-48">
+      <div className="px-2 md:px-[5vw] lg:px-[10vw] xl:px-[15vw] py-16 grid text-white grid-cols-1 md:grid-cols-3 gap-3 md:grid-rows-3">
         <div className="bg-indigo-800 rounded-3xl p-5 md:col-span-2 grid place-items-center">
           <div>
             <h2 className="text-3xl font-bold text-center">
