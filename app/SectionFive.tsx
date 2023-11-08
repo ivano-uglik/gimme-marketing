@@ -19,7 +19,7 @@ export default function SectionFive() {
       ? screenshotVatReturns
       : active == 4
       ? screenshotReporting
-      : active == 5 && screenshotVatReturns;
+      : screenshotVatReturns;
   return (
     <div className="h-screen grid place-items-center">
       <div className="flex flex-col gap-4">
