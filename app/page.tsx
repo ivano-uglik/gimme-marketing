@@ -7,6 +7,8 @@ import SectionFour from "./SectionFour";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
 import SectionFive from "./SectionFive";
+import SectionSeven from "./SectionSeven";
+import SectionEight from "./SectionEight";
 export default function Home() {
   return (
     <div>
@@ -18,6 +20,8 @@ export default function Home() {
       <SectionFour />
       <SectionFive />
       <SectionSix />
+      <SectionSeven />
+      <SectionEight />
     </div>
   );
 }
