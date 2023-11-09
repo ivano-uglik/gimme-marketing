@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className={`${inter.className}`}>
       <div className="text-white flex justify-around items-center py-2 radial ">
         <div>
-          <Image src={GimmeLogo} unoptimized />
+          <Image src={GimmeLogo} alt="" unoptimized />
         </div>
         <div>
           <ul className="flex gap-6">
