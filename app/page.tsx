@@ -1,20 +1,27 @@
-import { Hero } from "./Hero";
+import { Hero } from "./sections/Hero";
 import Navbar from "./Navbar";
-import { PrimaryFeatures } from "./PrimaryFeatures";
-import SavingsCalculator from "./SavingsCalculator";
-import SectionSix from "./SectionSix";
-import SectionFour from "./SectionFour";
-import SectionThree from "./SectionThree";
-import SectionTwo from "./SectionTwo";
-import SectionFive from "./SectionFive";
-import SectionSeven from "./SectionSeven";
-import SectionEight from "./SectionEight";
-import FAQ from "./FAQ";
+import SavingsCalculator from "./sections/SavingsCalculator";
+import SectionSix from "./sections/SectionSix";
+import SectionFour from "./sections/SectionFour";
+import SectionThree from "./sections/SectionThree";
+import SectionTwo from "./sections/SectionTwo";
+import SectionFive from "./sections/SectionFive";
+import SectionSeven from "./sections/SectionSeven";
+import SectionEight from "./sections/SectionEight";
+import FAQ from "./sections/FAQ";
+
+import HeroSection from "./Hero";
+import Quote from "./Quote";
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Hero />
+      <HeroSection />
+      <Quote />
+      {/* <Hero /> */}
+      {/* <SectionTwo /> */}
+
+      {/* <Hero />
       <SectionTwo />
       <SavingsCalculator />
       <SectionThree />
@@ -23,7 +30,7 @@ export default function Home() {
       <SectionSix />
       <SectionSeven />
       <SectionEight />
-      <FAQ />
-    </div>
+      <FAQ /> */}
+    </>
   );
 }
