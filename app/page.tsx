@@ -1,6 +1,6 @@
 import { Hero } from "./sections/Hero";
 import Navbar from "./Navbar";
-import SavingsCalculator from "./sections/SavingsCalculator";
+import SavingsCalculator from "./SavingsCalculator";
 import SectionSix from "./sections/SectionSix";
 import SectionFour from "./sections/SectionFour";
 import SectionThree from "./sections/SectionThree";
@@ -18,6 +18,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Quote />
+      <SavingsCalculator />
       {/* <Hero /> */}
       {/* <SectionTwo /> */}
 

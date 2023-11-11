@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 .radial {
-  background: radial-gradient(#5d2fd0, #4a26a6);
+  background: rgb(115, 79, 203);
+  background: linear-gradient(
+    241deg,
+    rgba(115, 79, 203, 1) 37%,
+    rgba(60, 30, 133, 0) 73%
+  );
 }
 
 body {
-  background: linear-gradient(#5d2fd0, #4a26a6);
+  /* background: linear-gradient(#5d2fd0, #4a26a6); */
+
+  background: rgb(85, 42, 191);
+  background: linear-gradient(
+    180deg,
+    rgba(85, 42, 191, 1) 0%,
+    rgba(60, 30, 133, 1) 20%
+  );
 }
 .navigation {
   backdrop-filter: blur(10px) saturate(150%);
@@ -71,4 +83,27 @@ body {
   background-clip: padding-box;
   transition: all 0.2s ease-in;
   cursor: pointer;
+}
+
+/* hides the number arrows in number type input  */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.calculator-gradient {
+  background: rgb(60, 30, 133);
+  background: linear-gradient(
+    93deg,
+    rgba(60, 30, 133, 1) 0%,
+    rgba(94, 69, 153, 1) 100%
+  );
 }

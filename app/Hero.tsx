@@ -6,10 +6,10 @@ const unbounded = Unbounded({ subsets: ["latin"] });
 
 export default function HeroSection() {
   return (
-    <div className="py-24 text-white flex flex-col items-center gap-8 w-full">
+    <div className="py-8 md:py-24 text-white flex flex-col items-center gap-8 w-full">
       <div className="flex justify-center">
         <h1
-          className={`${unbounded.className} uppercase font-black text-center text-5xl p-4 md:p-0 md:w-2/3`}
+          className={`${unbounded.className} uppercase font-black text-center text-2xl md:text-5xl p-4 md:p-0 md:w-2/3`}
         >
           Gimme is a Commission-Free Order & Pay Solution
         </h1>

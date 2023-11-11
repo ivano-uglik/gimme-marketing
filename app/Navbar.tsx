@@ -1,7 +1,7 @@
 // replace with navbar from joingimme.com
 
 import Image from "next/image";
-import GimmeLogo from "@/public/gimmeLogo.svg";
+import GimmeLogo from "@/public/gimmeLogoWhite.svg";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Navbar() {
   return (
     <div className={`${inter.className}`}>
-      <div className="text-white flex justify-around items-center py-2 radial ">
+      <div className="text-white hidden md:flex justify-around items-center py-2 radial ">
         <div>
           <Image src={GimmeLogo} alt="" unoptimized />
         </div>
@@ -17,7 +17,9 @@ export default function Navbar() {
           <ul className="flex gap-6">
             <div className="relative">
               <li>Start</li>
-              <div className="bg-white rounded-full absolute top-10">test</div>
+              <div className="bg-white rounded-t-full absolute top-10 h-1 ">
+                <span className="opacity-0">&nbsp;Start&nbsp;</span>
+              </div>
             </div>
             <li>Features</li>
             <li>Pricing</li>
