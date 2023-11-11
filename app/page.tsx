@@ -9,9 +9,10 @@ import SectionFive from "./sections/SectionFive";
 import SectionSeven from "./sections/SectionSeven";
 import SectionEight from "./sections/SectionEight";
 import FAQ from "./sections/FAQ";
-
+import OnlineDelivery from "./OnlineDelivery";
 import HeroSection from "./Hero";
 import Quote from "./Quote";
+import Grid from "./Grid";
 export default function Home() {
   return (
     <>
@@ -19,6 +20,8 @@ export default function Home() {
       <HeroSection />
       <Quote />
       <SavingsCalculator />
+      <OnlineDelivery />
+      <Grid />
       {/* <Hero /> */}
       {/* <SectionTwo /> */}
 
