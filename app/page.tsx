@@ -13,6 +13,7 @@ import OnlineDelivery from "./OnlineDelivery";
 import HeroSection from "./Hero";
 import Quote from "./Quote";
 import Grid from "./Grid";
+import Video from "./Video";
 export default function Home() {
   return (
     <>
@@ -22,6 +23,7 @@ export default function Home() {
       <SavingsCalculator />
       <OnlineDelivery />
       <Grid />
+      <Video />
       {/* <Hero /> */}
       {/* <SectionTwo /> */}
 
