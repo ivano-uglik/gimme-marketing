@@ -10,8 +10,11 @@ import template2 from "@/public/primary-3.webp";
 import template3 from "@/public/primary-2.webp";
 import template4 from "@/public/primary-1.webp";
 import select from "@/public/svg-assets/select.svg";
+import loyaltyProgram from "@/public/loyalty-programs.png";
+import confetti from "@/public/svg-assets/confetti.svg";
+import inBetween from "@/public/svg-assets/select2.svg";
 const unbounded = Unbounded({ subsets: ["latin"] });
-export default function Video() {
+export default function HospitalityBusinesses() {
   const [active, setActive] = useState(1);
 
   const image =
@@ -21,7 +24,7 @@ export default function Video() {
       ? template2
       : active === 3
       ? template3
-      : active === 4 && template4;
+      : template4;
   return (
     <div className="text-white">
       <div className="flex flex-col md:flex-row justify-center gap-24 md:gap-16 py-32">
@@ -121,7 +124,7 @@ export default function Video() {
       <div className="pb-32">
         <div className="relative">
           <Image
-            src={`${image}`}
+            src={image}
             className="mx-auto w-[60vw] h-[60vh] object-cover rounded-3xl"
             alt=""
             unoptimized
@@ -132,6 +135,44 @@ export default function Video() {
             alt=""
             unoptimized
           />
+        </div>
+      </div>
+      <div className="flex justify-center">
+        <Image src={inBetween} alt="" unoptimized />
+      </div>
+      <div className="flex flex-col md:flex-row justify-center gap-24 md:gap-16 py-32">
+        <div className="relative border-y-8 rounded-t-3xl rounded-b-3xl mx-8 md:mx-0">
+          <Image
+            src={loyaltyProgram}
+            className="w-[30rem]"
+            alt="Tablet screen displaying Gimme App"
+            unoptimized
+          />
+          <div>
+            <Image
+              src={confetti}
+              className="absolute -top-16 md:-top-24 left-8 right-0 mx-auto w-1/4 md:w-[40%]"
+              alt="money emoji svg"
+              unoptimized
+            />
+          </div>
+        </div>
+        <div className="md:w-[32%] px-8">
+          <h2
+            className={`${unbounded.className} text-3xl font-bold leading-relaxed`}
+          >
+            Enhance Guest Loyalty with Our Restaurant Loyalty Software
+          </h2>
+          <h3 className="pt-4">
+            {
+              "More than 75% of your future business comes from repeat guests. Gimme helps you discover more of them through a personalized loyalty program that cultivates a devoted following. Provide your guests with incentives to make frequent purchases."
+            }
+          </h3>
+          <button
+            className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base`}
+          >
+            Customize Your Online Restaurant Now
+          </button>
         </div>
       </div>
     </div>
