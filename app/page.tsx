@@ -14,6 +14,8 @@ import HeroSection from "./Hero";
 import Quote from "./Quote";
 import Grid from "./Grid";
 import HospitalityBusinesses from "./HospitalityBusinesses";
+import Video from "./Video";
+import Pricing from "./Pricing";
 export default function Home() {
   return (
     <>
@@ -24,6 +26,8 @@ export default function Home() {
       <OnlineDelivery />
       <Grid />
       <HospitalityBusinesses />
+      <Video />
+      <Pricing />
       {/* <Hero /> */}
       {/* <SectionTwo /> */}
 
