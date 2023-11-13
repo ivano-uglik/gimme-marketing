@@ -72,7 +72,7 @@ export default function SavingsCalculator() {
               <h2
                 className={`${unbounded.className} text-4xl font-bold text-center md:text-start`}
               >
-                {Number(value) * 0.3} CHF a month
+                {Math.ceil(Number(value) * 0.3)} CHF a month
               </h2>
             </div>
             <div className="w-1/2 md:w-1/4">

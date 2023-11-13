@@ -8,7 +8,8 @@ import SectionTwo from "./sections/SectionTwo";
 import SectionFive from "./sections/SectionFive";
 import SectionSeven from "./sections/SectionSeven";
 import SectionEight from "./sections/SectionEight";
-import FAQ from "./sections/FAQ";
+// import FAQ from "./sections/FAQ";
+import FAQ from "./FAQ";
 import OnlineDelivery from "./OnlineDelivery";
 import HeroSection from "./Hero";
 import Quote from "./Quote";
@@ -16,6 +17,7 @@ import Grid from "./Grid";
 import HospitalityBusinesses from "./HospitalityBusinesses";
 import Video from "./Video";
 import Pricing from "./Pricing";
+import Footer from "./Footer";
 export default function Home() {
   return (
     <>
@@ -28,6 +30,8 @@ export default function Home() {
       <HospitalityBusinesses />
       <Video />
       <Pricing />
+      <FAQ />
+      <Footer />
       {/* <Hero /> */}
       {/* <SectionTwo /> */}
 
