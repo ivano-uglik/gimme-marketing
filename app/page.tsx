@@ -20,22 +20,21 @@ import Pricing from "./Pricing";
 import Footer from "./Footer";
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <Quote />
-      <SavingsCalculator />
-      <OnlineDelivery />
-      <Grid />
-      <HospitalityBusinesses />
-      <Video />
-      <Pricing />
-      <FAQ />
-      <Footer />
-      {/* <Hero /> */}
-      {/* <SectionTwo /> */}
+    <div className="overflow-x-hidden">
+      <section className="container mx-auto px-4 lg:px-0">
+        <HeroSection />
+        <Quote />
+        <SavingsCalculator />
+        <OnlineDelivery />
+        <Grid />
+        <HospitalityBusinesses />
+        <Video />
+        <Pricing />
+        <FAQ />
+        {/* <Hero /> */}
+        {/* <SectionTwo /> */}
 
-      {/* <Hero />
+        {/* <Hero />
       <SectionTwo />
       <SavingsCalculator />
       <SectionThree />
@@ -45,6 +44,7 @@ export default function Home() {
       <SectionSeven />
       <SectionEight />
       <FAQ /> */}
-    </>
+      </section>
+    </div>
   );
 }

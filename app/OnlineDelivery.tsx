@@ -5,11 +5,10 @@ import vespa from "@/public/svg-assets/vespa.svg";
 const unbounded = Unbounded({ subsets: ["latin"] });
 export default function OnlineDelivery() {
   return (
-    <div className="text-white flex flex-col md:flex-row justify-center items-center gap-24 md:gap-32">
-      <div className="relative">
+    <div className="text-white flex flex-col md:flex-row justify-center items-center gap-24">
+      <div className="relative basis-1/2">
         <Image
           src={onlineDelivery}
-          className="w-[30rem] px-8 md:px-0"
           alt="Tablet screen displaying Gimme App"
           unoptimized
         />
@@ -22,7 +21,7 @@ export default function OnlineDelivery() {
           />
         </div>
       </div>
-      <div className="md:w-[28%] px-8">
+      <div className="basis-1/2">
         <h2 className={`${unbounded.className} text-3xl font-bold`}>
           Set Up Your Online Delivery For Your Restaurant Now
         </h2>

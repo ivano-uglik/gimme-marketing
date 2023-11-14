@@ -64,7 +64,10 @@ export default function FAQ() {
   return (
     <div className="text-white">
       <div className="flex flex-col gap-4 py-24">
-        <h2 className={`${unbounded.className} font-bold text-center text-4xl`}>
+        <h2
+          className={`${unbounded.className} font-bold text-center text-4xl`}
+          id="faq"
+        >
           Frequently Asked Questions
         </h2>
         <div className="flex justify-center">

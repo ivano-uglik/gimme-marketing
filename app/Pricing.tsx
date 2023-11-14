@@ -8,6 +8,7 @@ export default function Pricing() {
       <div>
         <h2
           className={`${unbounded.className} text-bold text-4xl text-center font-bold`}
+          id="pricing"
         >
           Pricing
         </h2>

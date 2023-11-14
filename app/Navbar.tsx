@@ -1,130 +1,67 @@
+"use client";
+
 // replace with navbar from joingimme.com
 
 import Image from "next/image";
 import GimmeLogo from "@/public/gimmeLogoWhite.svg";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
+import { Unbounded } from "next/font/google";
+import { GiHamburgerMenu } from "react-icons/gi";
+const unbounded = Unbounded({ subsets: ["latin"] });
+import { useState } from "react";
+// gap 8 on all components
+// hidden everything until lg
 export default function Navbar() {
+  const [activeDrawer, setActiveDrawer] = useState(false);
   return (
-    <div className={`${inter.className}`}>
-      <div className="text-white hidden md:flex justify-around items-center py-2 radial ">
-        <div>
-          <Image src={GimmeLogo} alt="" unoptimized />
-        </div>
-        <div>
-          <ul className="flex gap-6">
-            <div className="relative">
+    <div className="radial mx-auto">
+      <div className="container mx-auto py-8 lg:py-4">
+        <div className="text-white flex justify-between px-4 lg:px-0 items-center">
+          <div className="lg:basis-1/3 justify-start">
+            <Image
+              src={GimmeLogo}
+              alt="Gimme's Logo"
+              className="w-28"
+              unoptimized
+            />
+          </div>
+          <ul className="hidden lg:flex gap-8 text-lg lg:basis-1/3 justify-center">
+            <a href="">
               <li>Start</li>
-              <div className="bg-white rounded-t-full absolute top-10 h-1 ">
-                <span className="opacity-0">&nbsp;Start&nbsp;</span>
-              </div>
-            </div>
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Reviews</li>
-            <li>FAQ</li>
+            </a>
+            <a href="#features">
+              <li>Features</li>
+            </a>
+            <a href="#pricing">
+              <li>Pricing</li>
+            </a>
+            <a href="#reviews">
+              <li>Reviews</li>
+            </a>
+            <a href="#faq">
+              <li>FAQ</li>
+            </a>
             <li>Blog</li>
           </ul>
-        </div>
-        <div className="flex gap-4 items-center">
-          <span>Log In</span>
-          <button className="text-gimme bg-white rounded-full px-4 py-2 font-bold">
-            Get Started
-          </button>
+          <div className="flex gap-4 items-center lg:basis-1/3 justify-end">
+            <span className="hidden lg:block">Log In</span>
+            <button
+              className={`${unbounded.className} text-gimme bg-white font-bold rounded-full px-4 py-3 lg:py-1 text-xs lg:text-base`}
+            >
+              Get Started
+            </button>
+            <div className="lg:hidden">
+              <button
+                className="p-4"
+                onClick={(e) =>
+                  activeDrawer ? setActiveDrawer(false) : setActiveDrawer(true)
+                }
+              >
+                <GiHamburgerMenu size={28} />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-// export default function Navbar() {
-//   return (
-//     // <div className="navigation">
-//     <div className={`${inter.className} navigation0`}>
-//       <div className="flex justify-around p-8 text-white drop-shadow ">
-//         <a href="/">
-//           <Image
-//             src={GimmeLogo}
-//             alt="Gimme - Order food and drinks via app"
-//             className="bg-white"
-//             unoptimized
-//           />
-//         </a>
-//         <div className="hidden md:flex items-center gap-8">
-//           <ul className="flex gap-8 items-center">
-//             <li>
-//               <a href="/">Overview</a>
-//             </li>
-//             <li className="opacity-50">
-//               <a href="#">Use Cases</a>
-//             </li>
-//             <li className="opacity-50">
-//               <a href="#">How it Works</a>
-//             </li>
-//             <li className="opacity-50">
-//               <a href="#">About us</a>
-//             </li>
-//             <li className="opacity-50">
-//               <a href="https://gimme-blog.vercel.app/">Blog</a>
-//             </li>
-//             <li className="opacity-50">
-//               <a href="#">Pricing</a>
-//             </li>
-//           </ul>
-//           <button className="primary-button">Get started</button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// // replace with navbar from joingimme.com
-// import GimmeLogo from "@/public/gimmeLogo.svg";
-// import Image from "next/image";
-
-// export default function Navbar() {
-//   return (
-//     <div className="navigation">
-//       <div className="container-fluid">
-//         <div className="row">
-//           <div className="flex items-center justify-center p-4">
-//             <span>
-//               <a aria-current="page" href="/">
-//                 <Image
-//                   src={GimmeLogo}
-//                   alt="Gimme - Order food and drinks via app"
-//                   unoptimized
-//                 />
-//               </a>
-//             </span>
-//             <div className="float-right">
-//               <ul className="flex gap-8 items-center text-lg">
-//                 <li>
-//                   <a href="/">Overview</a>
-//                 </li>
-//                 <li className="opacity-50">
-//                   <a href="#">Use Cases</a>
-//                 </li>
-//                 <li className="opacity-50">
-//                   <a href="#">How it Works</a>
-//                 </li>
-//                 <li className="opacity-50">
-//                   <a href="#">About us</a>
-//                 </li>
-//                 <li className="opacity-50">
-//                   <a href="https://gimme-blog.vercel.app/">Blog</a>
-//                 </li>
-//                 <li className="opacity-50">
-//                   <a href="#">Pricing</a>
-//                 </li>
-//               </ul>
-//               <span className="primary-button">Get started</span>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

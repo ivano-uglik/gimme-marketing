@@ -18,12 +18,14 @@ export default function Video() {
         </div>
       </div>
       <div className="relative">
-        <Image
-          src={video}
-          alt=""
-          className="my-32 mx-auto border-b-8 rounded-b-2xl"
-          unoptimized
-        />
+        <div className="px-8">
+          <Image
+            src={video}
+            alt=""
+            className="my-32 mx-auto border-b-8 rounded-b-2xl "
+            unoptimized
+          />
+        </div>
         <button
           className={`${unbounded.className} absolute left-0 right-0 top-0 bottom-0 m-auto`}
         >

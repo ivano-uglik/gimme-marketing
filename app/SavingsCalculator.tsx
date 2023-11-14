@@ -12,8 +12,8 @@ export default function SavingsCalculator() {
 
   return (
     <div className="text-white py-16">
-      <div className="text-center flex flex-col items-center gap-1 pb-16">
-        <div className="flex justify-center">
+      <div className="flex flex-col items-center gap-1 pb-16">
+        <div className="text-center flex justify-center">
           <h2
             className={`${unbounded.className} text-4xl font-bold md:w-2/3 leading-relaxed`}
           >
@@ -23,13 +23,13 @@ export default function SavingsCalculator() {
         <h3 className="text-lg">
           {"Don't take our word on it, let the numbers speak for themselves."}
         </h3>
-        <h4 className="text-sm opacity-75 font-light">
+        <h4 className="text-sm opacity-75 font-light text-end">
           Note: Using Gimme you save at least 30% of the commission fee you
           currently pay to Eat and similar big apps.
         </h4>
       </div>
-      <div className="flex justify-center mx-8 md:mx-0">
-        <div className="calculator-gradient rounded-3xl w-full md:w-3/5 py-8 relative border border-blue-500">
+      <div className="flex justify-center">
+        <div className="calculator-gradient rounded-3xl w-full py-8 relative border border-blue-500">
           <div className="w-28 md:w-64 absolute -top-10 -left-10 md:-top-16 md:-left-16 ">
             <Image src={svg} alt="" unoptimized />
           </div>

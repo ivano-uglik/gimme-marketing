@@ -27,24 +27,24 @@ export default function HospitalityBusinesses() {
       : template4;
   return (
     <div className="text-white">
-      <div className="flex flex-col md:flex-row justify-center gap-24 md:gap-16 py-32">
-        <div className="relative">
+      <div className="flex flex-col md:flex-row justify-center gap-24 py-32">
+        <div className="relative basis-1/2">
           <Image
             src={brandGuestExperience}
-            className="w-[30rem] px-8 md:px-0"
+            className="w-full"
             alt="Tablet screen displaying Gimme App"
             unoptimized
           />
           <div>
             <Image
               src={emoji}
-              className="absolute -bottom-16 -right-0 md:-bottom-24 md:-right-16 w-1/4 md:w-[40%]"
+              className="absolute -bottom-16 -right-0 md:-bottom-24 md:right-32 w-1/4 md:w-[20%]"
               alt="money emoji svg"
               unoptimized
             />
           </div>
         </div>
-        <div className="md:w-[32%] px-8">
+        <div className="basis-1/2">
           <h2 className={`${unbounded.className} text-3xl font-bold`}>
             A Brand Guest Experience That Converts
           </h2>
