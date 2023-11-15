@@ -1,16 +1,6 @@
 "use client";
 
-import { Hero } from "./sections/Hero";
-import Navbar from "./Navbar";
 import SavingsCalculator from "./SavingsCalculator";
-import SectionSix from "./sections/SectionSix";
-import SectionFour from "./sections/SectionFour";
-import SectionThree from "./sections/SectionThree";
-import SectionTwo from "./sections/SectionTwo";
-import SectionFive from "./sections/SectionFive";
-import SectionSeven from "./sections/SectionSeven";
-import SectionEight from "./sections/SectionEight";
-// import FAQ from "./sections/FAQ";
 import FAQ from "./FAQ";
 import OnlineDelivery from "./OnlineDelivery";
 import HeroSection from "./Hero";
@@ -19,8 +9,19 @@ import Grid from "./Grid";
 import HospitalityBusinesses from "./HospitalityBusinesses";
 import Video from "./Video";
 import Pricing from "./Pricing";
-import Footer from "./Footer";
+import Lenis from "@studio-freight/lenis";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time: any) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  });
+
   return (
     <div className="overflow-x-hidden">
       <section className="content-container mx-auto px-4 lg:px-0">
@@ -33,19 +34,6 @@ export default function Home() {
         <Video />
         <Pricing />
         <FAQ />
-        {/* <Hero /> */}
-        {/* <SectionTwo /> */}
-
-        {/* <Hero />
-      <SectionTwo />
-      <SavingsCalculator />
-      <SectionThree />
-      <SectionFour />
-      <SectionFive />
-      <SectionSix />
-      <SectionSeven />
-      <SectionEight />
-      <FAQ /> */}
       </section>
     </div>
   );
