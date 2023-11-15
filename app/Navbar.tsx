@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function Navbar() {
   const [activeDrawer, setActiveDrawer] = useState(false);
   return (
-    <div className="radial mx-auto">
+    <div className="radial mx-auto relative">
       <div className="container mx-auto py-8 lg:py-4">
         <div className="text-white flex justify-between px-4 lg:px-0 items-center">
           <div className="lg:basis-1/3 justify-start">
@@ -61,6 +61,28 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+      </div>
+      <div className={!activeDrawer ? "hidden" : "flex w-64 right-8 absolute"}>
+        <ul className="flex flex-col w-full text-right bg-white rounded-2xl text-gimme z-50 border-indigo-800 border-2">
+          <a href="/" className="p-4 border-b">
+            <li> Start </li>
+          </a>
+          <a href="#features" className="p-4 border-b">
+            <li> Features</li>
+          </a>
+          <a href="#pricing" className="p-4 border-b">
+            <li> Pricing</li>
+          </a>
+          <a href="#reviews" className="p-4 border-b">
+            <li> Reviews</li>
+          </a>
+          <a href="#faq" className="p-4 border-b">
+            <li> FAQ</li>
+          </a>
+          <a href="https://gimme-blog.vercel.app" className="p-4">
+            <li> Blog</li>
+          </a>
+        </ul>
       </div>
     </div>
   );

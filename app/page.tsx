@@ -1,3 +1,5 @@
+"use client";
+
 import { Hero } from "./sections/Hero";
 import Navbar from "./Navbar";
 import SavingsCalculator from "./SavingsCalculator";
@@ -21,7 +23,7 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
-      <section className="container mx-auto px-4 lg:px-0">
+      <section className="content-container mx-auto px-4 lg:px-0">
         <HeroSection />
         <Quote />
         <SavingsCalculator />

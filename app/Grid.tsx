@@ -77,11 +77,11 @@ export default function Grid() {
           </h3>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-4 pt-8 md:pt-0">
+      <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4 pt-8 md:pt-0">
         {gridItems.map((item) => (
           <div
             key={item.id}
-            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between lg:w-[25vw] xl:w-[20vw]"
+            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between basis-1/3"
           >
             <div className="px-8">
               <h2 className={`${unbounded.className} font-bold text-2xl`}>
@@ -98,25 +98,24 @@ export default function Grid() {
           </div>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-4 pt-8">
+      <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4 pt-8">
         {gridItemsTwo.map((item) => (
-          <div key={item.id}>
-            <div className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between lg:w-[25vw] xl:w-[20vw]">
-              <div className="px-8">
-                <h2 className={`${unbounded.className} font-bold text-2xl`}>
-                  {item.title}
-                </h2>
-                <p>{item.description}</p>
-              </div>
-              <div className="pt-16 px-8 mx-auto my-auto">
-                <Image
-                  src={item.svg}
-                  className="pt-16 px-2 mx-auto xl:h-[20rem]"
-                  alt="SVG asset"
-                  unoptimized
-                />
-              </div>
+          <div
+            key={item.id}
+            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between basis-1/3"
+          >
+            <div className="px-8">
+              <h2 className={`${unbounded.className} font-bold text-2xl`}>
+                {item.title}
+              </h2>
+              <p>{item.description}</p>
             </div>
+            <Image
+              src={item.svg}
+              className="pt-16 px-2 mx-auto xl:h-[20rem]"
+              alt="SVG asset"
+              unoptimized
+            />
           </div>
         ))}
       </div>

@@ -64,14 +64,14 @@ export default function HospitalityBusinesses() {
         <div>
           <div className="flex justify-center">
             <h2
-              className={`${unbounded.className} font-bold text-3xl md:text-4xl text-center md:w-1/2 leading-relaxed px-2 md:px-0`}
+              className={`${unbounded.className} font-bold text-3xl md:text-4xl text-center md:w-2/3 leading-relaxed px-2 md:px-0`}
             >
               Tailored for Restaurants, Bars, Hotels, retail stores and much
               more
             </h2>
           </div>
           <div className="flex justify-center">
-            <h3 className="leading-relaxed px-2 md:px-0 md:w-1/3 text-center pt-4">
+            <h3 className="leading-relaxed px-2 md:px-0 md:w-1/2 text-center pt-4 lg:text-xl">
               Streamline operations: manage your digital menu, take-away,
               delivery, and access clear daily and monthly financial statements
               from one place
@@ -125,13 +125,13 @@ export default function HospitalityBusinesses() {
         <div className="relative">
           <Image
             src={image}
-            className="mx-auto w-[60vw] h-[60vh] object-cover rounded-3xl"
+            className="mx-auto object-cover rounded-3xl w-full"
             alt=""
             unoptimized
           />
           <Image
             src={select}
-            className="absolute left-0 right-[60%] -bottom-12 mx-auto"
+            className="absolute left-0 -right-[30%] -bottom-12 mx-auto"
             alt=""
             unoptimized
           />
@@ -141,23 +141,23 @@ export default function HospitalityBusinesses() {
         <Image src={inBetween} alt="" unoptimized />
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-24 md:gap-16 py-32">
-        <div className="relative border-y-8 rounded-t-3xl rounded-b-3xl mx-8 md:mx-0">
+        <div className="relative border-y-8 rounded-t-3xl rounded-b-3xl basis-1/2">
           <Image
             src={loyaltyProgram}
-            className="w-[30rem]"
+            className="w-full"
             alt="Tablet screen displaying Gimme App"
             unoptimized
           />
           <div>
             <Image
               src={confetti}
-              className="absolute -top-16 md:-top-24 left-8 right-0 mx-auto w-1/4 md:w-[40%]"
+              className="absolute -top-24 md:-top-48 left-0 right-0 mx-auto w-1/2  md:w-[40%]"
               alt="money emoji svg"
               unoptimized
             />
           </div>
         </div>
-        <div className="md:w-[32%] px-8">
+        <div className="basis-1/2">
           <h2
             className={`${unbounded.className} text-3xl font-bold leading-relaxed`}
           >

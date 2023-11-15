@@ -1,14 +1,17 @@
+"use client";
+
 import { Unbounded } from "next/font/google";
 import Image from "next/image";
 const unbounded = Unbounded({ subsets: ["latin"] });
-import video from "@/public/video.png";
 import arrow from "@/public/svg-assets/arrow.svg";
+import { useState } from "react";
 export default function Video() {
+  const [active, setActive] = useState(false);
   return (
     <div className="text-white">
       <div className="flex justify-center">
-        <div className="px-2 md:px-0 md:w-1/3 text-center flex flex-col gap-4">
-          <h2 className={`${unbounded.className} font-bold text-3xl`}>
+        <div className="md:w-1/2 text-center flex flex-col gap-4">
+          <h2 className={`${unbounded.className} font-bold text-4xl`}>
             Watch Our 1 Minute Guide on How Gimme Works
           </h2>
           <p>
@@ -17,24 +20,27 @@ export default function Video() {
           </p>
         </div>
       </div>
-      <div className="relative">
-        <div className="px-8">
-          <Image
-            src={video}
-            alt=""
-            className="my-32 mx-auto border-b-8 rounded-b-2xl "
-            unoptimized
-          />
-        </div>
+      <div>
         <button
-          className={`${unbounded.className} absolute left-0 right-0 top-0 bottom-0 m-auto`}
+          className={`${unbounded.className} w-full h-[60vh] my-16 ${
+            !active ? "video" : ""
+          }`}
+          onClick={(e) => setActive(true)}
         >
-          <div className="flex justify-center">
+          <div className={`${!active ? "flex justify-center" : "hidden"}`}>
             <div
-              className={`${unbounded.className} font-bold text-gimme bg-white w-2/3 md:w-1/4 rounded-full px-4 py-2`}
+              className={`${unbounded.className} font-bold text-gimme bg-white rounded-full px-16 py-4`}
             >
               Watch Video
             </div>
+          </div>
+          <div className={`${!active ? "hidden" : "block w-full h-full"}`}>
+            <iframe
+              src="https://player.vimeo.com/video/371095151?h=af2c00c42d"
+              allow="autoplay; fullscreen; picture-in-picture"
+              height="100%"
+              width="100%"
+            ></iframe>
           </div>
         </button>
       </div>

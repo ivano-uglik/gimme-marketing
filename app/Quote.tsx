@@ -9,7 +9,7 @@ export default function Quote() {
   return (
     <div>
       <div className="relative flex justify-center items-center">
-        <div className="w-full lg:h-[81vh] lg:pizza">
+        <div className="w-full  lg:pizza lg:border-b-8 lg:border-r-4">
           <Image
             src={svg1}
             alt="svg"

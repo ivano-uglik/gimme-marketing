@@ -33,8 +33,6 @@ export default function FAQ() {
       title: "What software do restaurants use to take orders?",
       answer: `Restaurants use Gimme to design beautiful ordering apps and websites, which seamlessly transmit online orders directly to their Point of Sale (POS) system.`,
     },
-  ];
-  const questionsTwo = [
     {
       title: "What types of online ordering systems are available?",
       answer: `Gimme caters to small to medium-sized restaurants looking to initiate online orders. We aggregate orders from various touchpoints, including websites, apps, kiosks, and third-party marketplace apps.`,
@@ -63,7 +61,7 @@ export default function FAQ() {
 
   return (
     <div className="text-white">
-      <div className="flex flex-col gap-4 py-24">
+      <div className="flex flex-col gap-4 lg:py-8">
         <h2
           className={`${unbounded.className} font-bold text-center text-4xl`}
           id="faq"
@@ -71,20 +69,17 @@ export default function FAQ() {
           Frequently Asked Questions
         </h2>
         <div className="flex justify-center">
-          <p className="text-center w-1/4 ">
+          <p className="text-center lg:w-1/2 ">
             Learn how to set up your digital presence for your restaurant online
             for FREE in 60 seconds!
           </p>
         </div>
       </div>
-      <div className="py-16 flex justify-center">
-        <div className="px-8 md:px-0 flex justify-center flex-col md:flex-row container gap-16">
-          <div className="md:w-2/3 flex flex-col">
+      <div className="py-8 flex justify-center">
+        <div className="flex justify-center flex-col md:flex-row gap-16 w-full">
+          <div className="flex flex-col w-full">
             {questions.map((question, index) => (
-              <div
-                className="p-2 bg-white my-4 rounded-xl text-gimme"
-                key={index}
-              >
+              <div className="p-4 border my-4 w-full" key={index}>
                 <button
                   className="flex items-center gap-4"
                   onClick={() =>
@@ -94,52 +89,22 @@ export default function FAQ() {
                     }))
                   }
                 >
-                  <span
-                    className={`font-bold text-3xl ${
-                      toggled[index] ? "-" : "+"
-                    }`}
-                  >
-                    {toggled[index] ? "-" : "+"}
-                  </span>
+                  <span className="text-3xl">{toggled[index] ? "-" : "+"}</span>
                   <h2 className="md:text-xl text-left">{question.title}</h2>
                 </button>
-                <p className={toggled[index] ? "" : "hidden"}>
-                  {question.answer}
-                </p>
-              </div>
-            ))}
-          </div>
-          <div className="md:w-2/3 flex flex-col">
-            {questionsTwo.map((question, index) => (
-              <div
-                className="p-2 bg-white my-4 rounded-xl text-gimme"
-                key={index}
-              >
-                <button
-                  className="flex items-center gap-4"
-                  onClick={() =>
-                    setToggled((prevToggled: any) => ({
-                      ...prevToggled,
-                      [index]: !prevToggled[index],
-                    }))
-                  }
-                >
-                  <span
-                    className={`font-bold text-3xl ${
-                      toggled[index] ? "-" : "+"
-                    }`}
-                  >
-                    {toggled[index] ? "-" : "+"}
-                  </span>
-                  <h2 className="md:text-xl text-left">{question.title}</h2>
-                </button>
-                <p className={toggled[index] ? "" : "hidden"}>
+                <p className={toggled[index] ? "pl-8" : "hidden"}>
                   {question.answer}
                 </p>
               </div>
             ))}
           </div>
         </div>
+      </div>
+      <div className="text-white flex justify-between pb-8">
+        <h2>&copy; Copyright 2023</h2>
+        <a href="https://github.com/ivano-uglik">
+          <h2>By Ivano!</h2>
+        </a>
       </div>
     </div>
   );
