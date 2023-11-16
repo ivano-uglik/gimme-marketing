@@ -37,7 +37,7 @@ export default function OnlineDelivery() {
           experience for your customers. No complex setup required!
         </h4>
         <button
-          className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold my-12`}
+          className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold my-12 hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
         >
           Create Your Online Delivery
         </button>

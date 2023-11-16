@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 .radial {
-  background: rgb(115, 79, 203);
-  background: linear-gradient(
-    241deg,
-    rgba(115, 79, 203, 1) 37%,
-    rgba(60, 30, 133, 0) 73%
-  );
+  background: rgba(115, 79, 203, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(115, 79, 203, 0.47);
+  position: sticky;
+  top: 0px;
+  z-index: 9;
 }
 
 body {
@@ -98,13 +100,26 @@ input[type="number"] {
 }
 
 .calculator-gradient {
-  background: rgb(60, 30, 133);
+  /* background: rgb(60, 30, 133);
   background: linear-gradient(
     93deg,
     rgba(60, 30, 133, 1) 0%,
     rgba(94, 69, 153, 1) 100%
-  );
+  ); */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
+/* 
+background: rgba(255, 255, 255, 0.2);\
+border-radius: 16px;\
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\
+backdrop-filter: blur(5px);\
+-webkit-backdrop-filter: blur(5px);\
+border: 1px solid rgba(255, 255, 255, 0.3);\ */
 
 /* .gradient-border {
   border: 1px solid;

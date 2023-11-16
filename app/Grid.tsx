@@ -127,7 +127,7 @@ export default function Grid() {
       </div>
       <div className="flex justify-center pt-16 relative">
         <button
-          className={`${unbounded.className} text-bold w-full lg:w-auto lg:px-28 py-4 bg-white  text-gimme rounded-full font-semibold`}
+          className={`${unbounded.className} text-bold w-full lg:w-auto lg:px-28 py-4 bg-white  text-gimme rounded-full font-semibold hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
         >
           Get Started
         </button>

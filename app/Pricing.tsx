@@ -171,7 +171,7 @@ export default function Pricing() {
         </div>
         <div className="flex justify-center items-center">
           <button
-            className={`${unbounded.className} px-16 py-4 my-8 rounded-full bg-gimme text-white font-bold`}
+            className={`${unbounded.className} px-16 py-4 my-8 rounded-full bg-gimme text-white font-bold hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
           >
             Get started for Free!
           </button>

@@ -45,7 +45,7 @@ export default function HospitalityBusinesses() {
           </div>
         </div>
         <div className="basis-1/2">
-          <h2 className={`${unbounded.className} text-3xl font-bold`}>
+          <h2 className={`${unbounded.className} text-3xl font-bold `}>
             A Brand Guest Experience That Converts
           </h2>
           <h3 className="pt-4">
@@ -54,7 +54,7 @@ export default function HospitalityBusinesses() {
             }
           </h3>
           <button
-            className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base`}
+            className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
           >
             Customize Your Online Restaurant Now
           </button>
@@ -82,7 +82,9 @@ export default function HospitalityBusinesses() {
               className={`${
                 unbounded.className
               } font-bold px-6 py-4 bg-white bg-opacity-10 rounded-full ${
-                active === 1 ? "active" : ""
+                active === 1
+                  ? "active"
+                  : "hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out"
               }`}
               onClick={() => setActive(1)}
             >
@@ -92,7 +94,9 @@ export default function HospitalityBusinesses() {
               className={`${
                 unbounded.className
               } font-bold px-6 py-4 bg-white bg-opacity-10 rounded-full ${
-                active === 2 ? "active" : ""
+                active === 2
+                  ? "active"
+                  : "hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out"
               }`}
               onClick={() => setActive(2)}
             >
@@ -102,7 +106,9 @@ export default function HospitalityBusinesses() {
               className={`${
                 unbounded.className
               } font-bold px-6 py-4 bg-white bg-opacity-10 rounded-full ${
-                active === 3 ? "active" : ""
+                active === 3
+                  ? "active"
+                  : "hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out"
               }`}
               onClick={() => setActive(3)}
             >
@@ -112,7 +118,9 @@ export default function HospitalityBusinesses() {
               className={`${
                 unbounded.className
               } font-bold px-6 py-4 bg-white bg-opacity-10 rounded-full ${
-                active === 4 ? "active" : ""
+                active === 4
+                  ? "active"
+                  : "hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out"
               }`}
               onClick={() => setActive(4)}
             >
@@ -169,7 +177,7 @@ export default function HospitalityBusinesses() {
             }
           </h3>
           <button
-            className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base`}
+            className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
           >
             Customize Your Online Restaurant Now
           </button>

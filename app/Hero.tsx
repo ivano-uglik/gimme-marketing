@@ -30,10 +30,11 @@ export default function HeroSection() {
         </div>
         <div className="flex flex-col items-center justify-center gap-6">
           <button
-            className={` ${unbounded.className} text-gimme bg-white rounded-full px-8 py-4 font-semibold`}
+            className={` ${unbounded.className} text-gimme bg-white rounded-full px-8 py-4 font-semibold hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
           >
             Sign Up For Free
           </button>
+
           <span className="text-sm">*No credit card required</span>
         </div>
       </div>

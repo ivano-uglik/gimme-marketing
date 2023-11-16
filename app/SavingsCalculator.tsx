@@ -29,7 +29,7 @@ export default function SavingsCalculator() {
         </h4>
       </div>
       <div className="flex justify-center">
-        <div className="calculator-gradient rounded-3xl w-full py-8 relative border border-blue-500">
+        <div className="calculator-gradient w-full py-8 relative">
           <div className="w-28 md:w-64 absolute -top-10 -left-10 md:-top-16 md:-left-16 ">
             <Image src={svg} alt="" unoptimized />
           </div>

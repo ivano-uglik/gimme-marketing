@@ -29,7 +29,7 @@ export default function Video() {
         >
           <div className={`${!active ? "flex justify-center" : "hidden"}`}>
             <div
-              className={`${unbounded.className} font-bold text-gimme bg-white rounded-full px-16 py-4`}
+              className={`${unbounded.className} font-bold text-gimme bg-white rounded-full px-16 py-4 hover:text-white hover:bg-gimme hover:scale-125 transition-all duration-500 ease-in-out`}
             >
               Watch Video
             </div>

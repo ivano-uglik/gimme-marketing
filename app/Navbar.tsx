@@ -77,7 +77,7 @@ export default function Navbar() {
           <div className="flex gap-4 items-center lg:basis-1/3 justify-end">
             <span className="hidden lg:block">Log In</span>
             <button
-              className={`${unbounded.className} text-gimme bg-white font-bold rounded-full px-4 py-3 lg:py-1 text-xs lg:text-base`}
+              className={`${unbounded.className} text-gimme bg-white font-bold rounded-full px-4 py-3 lg:py-1 text-xs lg:text-base hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
             >
               Get Started
             </button>
