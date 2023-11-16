@@ -38,7 +38,7 @@ export default function HospitalityBusinesses() {
           <div>
             <Image
               src={emoji}
-              className="absolute -bottom-16 -right-0 md:-bottom-24 md:right-32 w-1/4 md:w-[20%]"
+              className="absolute -bottom-24 md:bottom-2 lg:-bottom-24 -right-12 w-1/5 md:w-[30%]"
               alt="money emoji svg"
               unoptimized
             />
@@ -141,17 +141,17 @@ export default function HospitalityBusinesses() {
         <Image src={inBetween} alt="" unoptimized />
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-24 md:gap-16 py-32">
-        <div className="relative border-y-8 rounded-t-3xl rounded-b-3xl basis-1/2">
+        <div className="relative basis-1/2">
           <Image
             src={loyaltyProgram}
-            className="w-full"
+            className="w-full border-y-8 rounded-t-3xl rounded-b-3xl"
             alt="Tablet screen displaying Gimme App"
             unoptimized
           />
           <div>
             <Image
               src={confetti}
-              className="absolute -top-24 md:-top-48 left-0 right-0 mx-auto w-1/2  md:w-[40%]"
+              className="absolute -top-32 md:-top-16 lg:-top-32 left-0 right-0 mx-auto w-1/3 lg:w-[40%]"
               alt="money emoji svg"
               unoptimized
             />

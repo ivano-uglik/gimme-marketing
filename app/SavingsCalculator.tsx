@@ -46,19 +46,19 @@ export default function SavingsCalculator() {
               </h4>
             </div>
             <div
-              className={`${unbounded.className} w-full py-4 px-4 md:py-8 md:px-8 rounded-3xl font-bold md:text-3xl mt-8 mb-2 text-gimme flex items-center justify-between bg-white`}
+              className={`${unbounded.className} w-full rounded-3xl font-bold md:text-3xl mt-8 mb-2 text-gimme flex items-center justify-between bg-white`}
             >
-              <div>
+              <div className="w-full">
                 <input
                   type="number"
-                  className="w-full outline-none"
+                  className="w-full outline-none py-4 px-4 md:py-8 md:px-8 rounded-3xl"
                   value={value}
                   onChange={(e) => {
                     setValue(e.target.value);
                   }}
                 />
               </div>
-              <span>CHF</span>
+              <span className="cursor-pointer pr-4 md:pr-8">CHF</span>
             </div>
             <span className="text-xs opacity-50">
               NOTE: Data is not saved anywhere and only you can see it!

@@ -9,7 +9,7 @@ export default function HeroSection() {
     <div>
       <div className="py-8 md:py-24 text-white flex flex-col items-center gap-8 w-full">
         <div className="flex justify-center">
-          <div className="md:w-2/3 mx-auto">
+          <div className="md:w-[90%] mx-auto">
             <h1
               className={`${unbounded.className} uppercase font-black text-center text-2xl md:text-5xl p-4 md:p-0 leading-normal md:leading-relaxed`}
             >

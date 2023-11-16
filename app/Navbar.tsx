@@ -8,6 +8,8 @@ import { Unbounded } from "next/font/google";
 import { GiHamburgerMenu } from "react-icons/gi";
 const unbounded = Unbounded({ subsets: ["latin"] });
 import { useState } from "react";
+import { Link } from "react-scroll";
+// import Link from "next/link";
 // gap 8 on all components
 // hidden everything until lg
 export default function Navbar() {
@@ -25,22 +27,52 @@ export default function Navbar() {
             />
           </div>
           <ul className="hidden lg:flex gap-8 text-lg lg:basis-1/3 justify-center">
-            <a href="">
+            <a href="/">
               <li>Start</li>
             </a>
-            <a href="#features">
+            <Link
+              href="#features"
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
               <li>Features</li>
-            </a>
-            <a href="#pricing">
+            </Link>
+            <Link
+              href="#pricing"
+              to="pricing"
+              spy={true}
+              smooth={true}
+              offset={-25}
+              duration={500}
+            >
               <li>Pricing</li>
-            </a>
-            <a href="#reviews">
+            </Link>
+            <Link
+              href="#reviews"
+              to="reviews"
+              spy={true}
+              smooth={true}
+              offset={-250}
+              duration={500}
+            >
               <li>Reviews</li>
-            </a>
-            <a href="#faq">
+            </Link>
+            <Link
+              href="#faq"
+              to="faq"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
               <li>FAQ</li>
+            </Link>
+            <a href="https://gimme-blog.vercel.app">
+              <li>Blog</li>
             </a>
-            <li>Blog</li>
           </ul>
           <div className="flex gap-4 items-center lg:basis-1/3 justify-end">
             <span className="hidden lg:block">Log In</span>
@@ -65,22 +97,54 @@ export default function Navbar() {
       <div className={!activeDrawer ? "hidden" : "flex w-64 right-8 absolute"}>
         <ul className="flex flex-col w-full text-right bg-white rounded-2xl text-gimme z-50 border-indigo-800 border-2">
           <a href="/" className="p-4 border-b">
-            <li> Start </li>
+            <li>Start</li>
           </a>
-          <a href="#features" className="p-4 border-b">
-            <li> Features</li>
-          </a>
-          <a href="#pricing" className="p-4 border-b">
-            <li> Pricing</li>
-          </a>
-          <a href="#reviews" className="p-4 border-b">
-            <li> Reviews</li>
-          </a>
-          <a href="#faq" className="p-4 border-b">
-            <li> FAQ</li>
-          </a>
+          <Link
+            className="p-4 border-b"
+            href="#features"
+            to="features"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            <li>Features</li>
+          </Link>
+          <Link
+            className="p-4 border-b"
+            href="#pricing"
+            to="pricing"
+            spy={true}
+            smooth={true}
+            offset={-25}
+            duration={500}
+          >
+            <li>Pricing</li>
+          </Link>
+          <Link
+            className="p-4 border-b"
+            href="#reviews"
+            to="reviews"
+            spy={true}
+            smooth={true}
+            offset={-250}
+            duration={500}
+          >
+            <li>Reviews</li>
+          </Link>
+          <Link
+            className="p-4 border-b"
+            href="#faq"
+            to="faq"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            <li>FAQ</li>
+          </Link>
           <a href="https://gimme-blog.vercel.app" className="p-4">
-            <li> Blog</li>
+            <li>Blog</li>
           </a>
         </ul>
       </div>

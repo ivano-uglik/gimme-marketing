@@ -5,7 +5,7 @@ import svgFour from "@/public/svg-assets/grid/4.svg";
 import svgFive from "@/public/svg-assets/grid/5.svg";
 import svgSix from "@/public/svg-assets/grid/6.svg";
 import gridSvg from "@/public/svg-assets/grid-svg.svg";
-
+import gradient from "@/public/gradient.svg";
 import { Unbounded } from "next/font/google";
 import Image from "next/image";
 const unbounded = Unbounded({ subsets: ["latin"] });
@@ -98,7 +98,7 @@ export default function Grid() {
           </div>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4 pt-8">
+      <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4 pt-8 relative">
         {gridItemsTwo.map((item) => (
           <div
             key={item.id}
@@ -118,6 +118,12 @@ export default function Grid() {
             />
           </div>
         ))}
+        <Image
+          alt=""
+          src={gradient}
+          className="hidden md:block absolute w-full md:-bottom-20 lg:-bottom-12 xl:-bottom-8 h-[32vh]"
+          unoptimized
+        />
       </div>
       <div className="flex justify-center pt-16 relative">
         <button
