@@ -196,3 +196,26 @@ ul.order-ahead > div {
   border-radius: 1.5rem;
   background-position: center;
 }
+.list-item {
+  list-style: none;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+}

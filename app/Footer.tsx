@@ -5,6 +5,16 @@ const navigation = {
     { name: "API Access", href: "mailto:goran.ramljak@zirelco.ch" },
     { name: "For Users", href: "mailto:goran.ramljak@zirelco.ch" },
   ],
+  terms: [
+    {
+      name: "Restaurants",
+      href: "https://gimme-marketing-two.vercel.app/terms-conditions-restaurants",
+    },
+    {
+      name: "Users",
+      href: "https://gimme-marketing-two.vercel.app/terms-conditions-user",
+    },
+  ],
   language: [
     { name: "English", href: "#" },
     { name: "Deutsch", href: "#" },
@@ -55,9 +65,9 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer aria-labelledby="footer-heading" className="gradient">
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+    <footer aria-labelledby="footer-heading" className="gradient relative">
+      <div className="content-container mx-auto pb-8 pt-16 sm:pt-24 lg:pt-32">
+        <div className="flex justify-between flex-col lg:flex-row text-center xl:text-start gap-8">
           <div className="space-y-8">
             <svg viewBox="0 0 127 50" className="h-10 mx-auto">
               <title>Combined Shape</title>
@@ -95,67 +105,87 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="mt-16 flex flex-col md:flex-row justify-around gap-8 xl:col-span-2 xl:mt-0 text-center md:text-left">
-            <div>
-              <h3 className="text-sm font-semibold leading-6 text-white">
-                {"Let's connect"}
-              </h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.connect.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6 text-white hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-4 md:mt-0">
-              <h3 className="text-sm font-semibold leading-6 text-white">
-                Our Services
-              </h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.services.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6 text-white hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-sm font-semibold leading-6 text-white">
-                Language
-              </h3>
-              <ul
-                role="list"
-                className="mt-6 md:space-y-4 flex justify-center gap-8 md:inline-block"
-              >
-                {navigation.language.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6 text-white hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div>
+            <h3 className="text-sm font-semibold leading-6 text-white">
+              {"Let's connect"}
+            </h3>
+            <ul role="list" className="mt-6 space-y-4">
+              {navigation.connect.map((item) => (
+                <li key={item.name}>
+                  <a
+                    href={item.href}
+                    className="text-sm leading-6 text-white link"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4 md:mt-0">
+            <h3 className="text-sm font-semibold leading-6 text-white">
+              Our Services
+            </h3>
+            <ul role="list" className="mt-6 space-y-4">
+              {navigation.services.map((item) => (
+                <li key={item.name}>
+                  <a
+                    href={item.href}
+                    className="text-sm leading-6 text-white link"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4 md:mt-0">
+            <h3 className="text-sm font-semibold leading-6 text-white">
+              Terms & Conditions
+            </h3>
+            <ul role="list" className="mt-6 space-y-4">
+              {navigation.terms.map((item) => (
+                <li key={item.name}>
+                  <a
+                    href={item.href}
+                    className="text-sm leading-6 text-white link"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4 md:mt-0">
+            <h3 className="text-sm font-semibold leading-6 text-white">
+              Language
+            </h3>
+            <ul
+              role="list"
+              className="mt-6 md:space-y-4 flex justify-center gap-8 md:inline-block"
+            >
+              {navigation.language.map((item) => (
+                <li key={item.name}>
+                  <a
+                    href={item.href}
+                    className="text-sm leading-6 text-white link"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-white">
-            Gimme App - Made with 💛 in Zürich & Vienna
-          </p>
+        <div className="text-xs leading-5 text-white mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 flex justify-between mx-4 lg:mx-0">
+          <p>Gimme App - Made with 💛 in Zürich & Vienna</p>
+          <a
+            href="https://github.com/ivano-uglik"
+            className="link"
+            target="_blank"
+          >
+            By Ivano Uglik
+          </a>
         </div>
       </div>
     </footer>

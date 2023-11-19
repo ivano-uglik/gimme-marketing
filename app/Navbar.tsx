@@ -27,12 +27,13 @@ export default function Navbar() {
             />
           </div>
           <ul className="hidden lg:flex gap-8 text-lg lg:basis-1/3 justify-center">
-            <a href="/">
+            <a href="/" className="link">
               <li>Start</li>
             </a>
             <Link
               href="#features"
               to="features"
+              className="link"
               spy={true}
               smooth={true}
               offset={-50}
@@ -43,6 +44,7 @@ export default function Navbar() {
             <Link
               href="#pricing"
               to="pricing"
+              className="link"
               spy={true}
               smooth={true}
               offset={-25}
@@ -53,6 +55,7 @@ export default function Navbar() {
             <Link
               href="#reviews"
               to="reviews"
+              className="link"
               spy={true}
               smooth={true}
               offset={-250}
@@ -63,6 +66,7 @@ export default function Navbar() {
             <Link
               href="#faq"
               to="faq"
+              className="link"
               spy={true}
               smooth={true}
               offset={-50}
@@ -70,7 +74,7 @@ export default function Navbar() {
             >
               <li>FAQ</li>
             </Link>
-            <a href="https://gimme-blog.vercel.app">
+            <a href="https://gimme-blog.vercel.app" className="link">
               <li>Blog</li>
             </a>
           </ul>

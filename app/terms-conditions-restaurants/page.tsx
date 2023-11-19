@@ -6,8 +6,8 @@ export default function Home() {
     "utf-8"
   );
   return (
-    <div className="bg-white">
-      <article className="overflow-x-hidden prose lg:prose-xl max-w-[50%] mx-auto px-8">
+    <div>
+      <article className="text-white prose-headings:text-white prose-strong:text-white prose-li:text-white content-container overflow-x-hidden prose lg:prose-xl mx-auto px-8">
         <Markdown>{tos}</Markdown>
       </article>
     </div>

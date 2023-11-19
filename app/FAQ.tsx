@@ -102,12 +102,6 @@ export default function FAQ() {
           </div>
         </div>
       </div>
-      <div className="text-white flex justify-between pb-8">
-        <h2>&copy; Copyright 2023</h2>
-        <a href="https://github.com/ivano-uglik">
-          <h2>By Ivano!</h2>
-        </a>
-      </div>
     </div>
   );
 }
