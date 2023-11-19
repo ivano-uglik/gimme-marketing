@@ -20,9 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <Navbar />
-        {children}
+        <div className="content-container mx-auto px-4 lg:px-0">{children}</div>
         <Footer />
       </body>
     </html>

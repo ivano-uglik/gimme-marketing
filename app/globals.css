@@ -219,3 +219,7 @@ ul.order-ahead > div {
 .link:hover:after {
   width: 100%;
 }
+
+.bg-pattern {
+  background-image: url("https://joingimme.com/static/media/texture.2f8281d4.svg");
+}

@@ -74,7 +74,7 @@ export default function Navbar() {
             >
               <li>FAQ</li>
             </Link>
-            <a href="https://gimme-blog.vercel.app" className="link">
+            <a href="/blog" className="link">
               <li>Blog</li>
             </a>
           </ul>
@@ -147,7 +147,7 @@ export default function Navbar() {
           >
             <li>FAQ</li>
           </Link>
-          <a href="https://gimme-blog.vercel.app" className="p-4">
+          <a href="/blog" className="p-4">
             <li>Blog</li>
           </a>
         </ul>

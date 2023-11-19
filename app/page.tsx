@@ -23,18 +23,16 @@ export default function Home() {
   });
 
   return (
-    <div className="overflow-x-hidden">
-      <section className="content-container mx-auto px-4 lg:px-0">
-        <HeroSection />
-        <Quote />
-        <SavingsCalculator />
-        <OnlineDelivery />
-        <Grid />
-        <HospitalityBusinesses />
-        <Video />
-        <Pricing />
-        <FAQ />
-      </section>
-    </div>
+    <>
+      <HeroSection />
+      <Quote />
+      <SavingsCalculator />
+      <OnlineDelivery />
+      <Grid />
+      <HospitalityBusinesses />
+      <Video />
+      <Pricing />
+      <FAQ />
+    </>
   );
 }
