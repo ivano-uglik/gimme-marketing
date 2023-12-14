@@ -26,7 +26,7 @@ export default function HospitalityBusinesses() {
       ? template3
       : template4;
   return (
-    <div className="text-white">
+    <div className="text-white overflow-x-hidden">
       <div className="flex flex-col md:flex-row justify-center gap-24 py-32">
         <div className="relative basis-1/2">
           <Image

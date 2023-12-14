@@ -79,22 +79,27 @@ export default function FAQ() {
         <div className="flex justify-center flex-col md:flex-row gap-16 w-full">
           <div className="flex flex-col w-full">
             {questions.map((question, index) => (
-              <div className="border my-4 w-full" key={index}>
+              <div
+                className="border my-4 w-full rounded-2xl cursor-pointer"
+                key={index}
+                onClick={() =>
+                  setToggled((prevToggled: any) => ({
+                    ...prevToggled,
+                    [index]: !prevToggled[index],
+                  }))
+                }
+              >
                 <button
                   className={`w-full flex items-center gap-4 ${
                     toggled[index] ? "pl-4 pt-4" : "p-4"
                   }`}
-                  onClick={() =>
-                    setToggled((prevToggled: any) => ({
-                      ...prevToggled,
-                      [index]: !prevToggled[index],
-                    }))
-                  }
                 >
                   <span className="text-3xl">{toggled[index] ? "-" : "+"}</span>
                   <h2 className="md:text-xl text-left">{question.title}</h2>
                 </button>
-                <p className={toggled[index] ? "pl-8 pb-4 pt-2" : "hidden"}>
+                <p
+                  className={toggled[index] ? "pl-8 pb-4 pt-2 pr-4" : "hidden"}
+                >
                   {question.answer}
                 </p>
               </div>

@@ -1,5 +1,3 @@
-// replace with navbar from joingimme.com
-
 export default function Navbar() {
   return (
     <div className="flex justify-around p-8 font-bold bg-white drop-shadow">

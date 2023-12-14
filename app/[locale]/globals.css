@@ -131,21 +131,17 @@ border: 1px solid rgba(255, 255, 255, 0.3);\ */
     1;
 } */
 
-.active {
-  background-color: white !important;
-  color: #3c1e85;
-}
 .gradient {
   background: rgb(115, 79, 203);
   background: linear-gradient(
-    340deg,
+    360deg,
     rgba(115, 79, 203, 1) 0%,
     rgba(60, 30, 133, 1) 70%
   );
 }
 @layer components {
   .pizza {
-    background: url("../public/pizza-background.jpg");
+    background: url("../../public/pizza-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.5rem;
@@ -190,7 +186,7 @@ ul.order-ahead > div {
 }
 
 .video {
-  background: url("../public/video.png");
+  background: url("../../public/video.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1.5rem;

@@ -1,5 +1,4 @@
-import { MetadataRoute } from "next";
-import getPostMetadata from "./@lib/getPostMetadata";
+import getPostMetadata from "./[locale]/blog/@lib/getPostMetadata";
 
 function getPostSlugs() {
   const posts = getPostMetadata();
@@ -11,7 +10,7 @@ function getPostSlugs() {
 export default function sitemap(): any {
   const postSlugs = getPostSlugs();
   const sitemapEntries = postSlugs.map((post) => ({
-    url: `https://gimme-blog.vercel.app/post/${post.slug}`,
+    url: `https://gimme-marketing-two.vercel.app/blog/post/${post.slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly",
     priority: 0.8,
@@ -19,7 +18,7 @@ export default function sitemap(): any {
 
   // Add the homepage to the sitemap as well
   sitemapEntries.unshift({
-    url: "https://gimme-blog.vercel.app",
+    url: "https://gimme-marketing-two.vercel.app/",
     lastModified: new Date(),
     changeFrequency: "yearly",
     priority: 1,

@@ -13,7 +13,7 @@ export default function Sticky() {
         </h1>
         <h2 className="text-lg opacity-50">
           Read inspiring stories of businesses that have achieved remarkable
-          success wtih Gimme. Discover how they saved time and money while
+          success with Gimme. Discover how they saved time and money while
           increasing revenue.
         </h2>
         <div>
