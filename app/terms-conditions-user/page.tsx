@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 import Markdown from "markdown-to-jsx";
 export default function Home() {
   const tos = readFileSync(
-    process.cwd() + "/app/[locale]/terms-conditions-user/ToS.md",
+    process.cwd() + "/app/terms-conditions-user/ToS.md",
     "utf-8"
   );
   return (

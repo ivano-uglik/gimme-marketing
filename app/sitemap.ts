@@ -1,4 +1,4 @@
-import getPostMetadata from "./[locale]/blog/@lib/getPostMetadata";
+import getPostMetadata from "./blog/@lib/getPostMetadata";
 
 function getPostSlugs() {
   const posts = getPostMetadata();

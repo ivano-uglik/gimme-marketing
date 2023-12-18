@@ -141,7 +141,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);\ */
 }
 @layer components {
   .pizza {
-    background: url("../../public/pizza-background.jpg");
+    background: url("../public/pizza-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.5rem;
@@ -186,7 +186,7 @@ ul.order-ahead > div {
 }
 
 .video {
-  background: url("../../public/video.png");
+  background: url("../public/video.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1.5rem;
