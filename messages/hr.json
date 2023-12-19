@@ -1,0 +1,32 @@
+{
+  "Hero": {
+    "title": "Gimme je rješenje za naručivanje i plaćanje bez provizije za ugostiteljsku industriju.",
+    "subline": "Koristite Gimme da bolje poslužite, povežete se i nagradite svoje goste. Nabavite svoju jedinstvenu mobilnu aplikaciju i web aplikaciju za naručivanje.",
+    "signUpButton": "Prijavite se besplatno",
+    "noCreditCardRequired": "* Kreditna kartica nije potrebna"
+  },
+  "Quote": {
+    "title": "Uštedite novac uz naše rješenje za restorane, pružajući pristupačne usluge ručavanja, dostave i ponijeti bez visokih provizija aplikacija trećih strana kao što je Wolt.",
+    "subline": "Postignite vrhunske rang liste na Google pretraživanju dok optimiziramo stranicu vašeg restorana, olakšavajući privlačenje više pregleda, gostiju i profita.",
+    "cardTitle": "Postavite svoju online dostavu za svoj restoran sada",
+    "cardSubline": "Naša usluga pojednostavljuje proces online dostave za kreiranje restorana, čineći pojedincima lakim postavljanje svoje online dostave, hrane za poneti, usluge ručavanja ili digitalnog menija sa samo nekoliko klikova. Uz našu platformu prilagođenu korisniku i intuitivno sučelje, možete lako konfigurirati i pokrenuti svoju uslugu, osiguravajući besprijekorno iskustvo za svoje klijente. Nije potrebno složeno podešavanje!",
+    "button": "Create Your Online Delivery"
+  },
+  "Grid": {
+    "title": "Rješenja za preduzeća svih veličina",
+    "goal": "Naš cilj je pojednostaviti svakodnevni život vlasnika restorana i povećati profit.",
+    "getStarted": "Počnite",
+    "feature1Title": "Naručite i platite direktno u restoranu",
+    "feature1Description": "Maksimizirajte potencijal naručivanja i olakšajte svojim kupcima da dobiju upravo ono što žele.",
+    "feature2Title": "Nabavite vlastiti restoran i Instagram stranicu potpuno prilagođenu vašim potrebama",
+    "feature2Description": "Dobijte vlastitu stranicu restorana i Instagram potpuno prilagođenu vašim potrebama.",
+    "feature3Title": "Digitalni jelovnici",
+    "feature3Description": "Olakšajte svojim gostima brzo skeniranje QR koda i odmah pregledavanje raznolikog menija za dodatnu inspiraciju za naručivanje.",
+    "feature4Title": "Za ponijeti",
+    "feature4Description": "Prilagodite stranicu za naručivanje u restoranu prema svojim željama. Omogućite kupcima da unaprijed naruče željeno vrijeme preuzimanja i izvrše direktna plaćanja.",
+    "feature5Title": "Isporuka",
+    "feature5Description": "Integracijom s vašom web-stranicom možete služiti svojim klijentima putem vlastite platforme za dostavu, štedeći na naknadama trećih strana i zadržavajući kontrolu nad kvalitetom.",
+    "feature6Title": "Program lojalnosti",
+    "feature6Description": "Program lojalnosti koji generira 3 puta više tijekom svog životnog vijeka, pretvarajući goste u lojalne obožavatelje brenda."
+  }
+}

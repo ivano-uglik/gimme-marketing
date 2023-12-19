@@ -1,0 +1,32 @@
+{
+  "Hero": {
+    "title": "Gimme is a Commission-Free Order & Pay Solution",
+    "subline": "Use Gimme to better serve, connect with and reward your guests. Get your unique mobile app and web ordering app for the hospitality industry.",
+    "signUpButton": "Sign Up For Free",
+    "noCreditCardRequired": "*No credit card required"
+  },
+  "Quote": {
+    "title": "Save on fees with our restaurant solution without high app commissions like Eat.",
+    "subline": "Achieve top Google search rankings as we optimize your SEO restaurant page making it easier to attract more views, guests, and profits.",
+    "cardTitle": "Set Up Your Online Delivery For Your Restaurant Now",
+    "cardSubline": "Our service streamlines the online delivery for restaurants creation process, making it effortless for individuals to set up online delivery, takeaway, dine-in service, or digital menu with just a few clicks. With our user-friendly platform and intuitive interface, you can easily configure and launch your service, ensuring a seamless experience for your customers. No complex setup required!",
+    "button": "Create Your Online Delivery"
+  },
+  "Grid": {
+    "title": "Get Gimme to Get All Solutions For Your Digital Growth",
+    "goal": "Our goal is to simplify the daily life of restaurant owners and increase profits.",
+    "getStarted": "Get Started",
+    "feature1Title": "Order and Pay Directly in Restaurant",
+    "feature1Description": "Maximize ordering potential and make it easy for your customers to get exactly what they want.",
+    "feature5Title": "Delivery",
+    "feature5Description": "By integrating with your website, you can serve your customers through your own delivery platform, saving on third-party fees and retaining control over your quality.",
+    "feature4Title": "Takeaway",
+    "feature4Description": "Customize your restaurant's ordering page to your preferences, allow customers to pre-order for their preferred pickup time and make payments.",
+    "feature6Title": "Loyalty Programs",
+    "feature6Description": "A loyalty program that generates 3x more across its lifetime, turning guests into brand loyalists.",
+    "feature2Title": "Custom Website and Instagram page",
+    "feature2Description": "Get your own restaurant and Instagram page completely tailored for your needs.",
+    "feature3Title": "Digital menus",
+    "feature3Description": "Make it easy for your guests to quickly scan the QR code and instantly view our diverse menu for additional ordering inspiration"
+  }
+}

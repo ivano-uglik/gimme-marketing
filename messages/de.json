@@ -1,0 +1,32 @@
+{
+  "Hero": {
+    "title": "Gimme ist eine provisionsfreie Order & Pay-Lösung für das Gastgewerbe.",
+    "subline": "Nutzen Sie Gimme, um Ihre Gäste besser zu bedienen, mit ihnen in Kontakt zu treten und sie zu belohnen. Holen Sie sich Ihre einzigartige mobile App und Web-Bestell-App.",
+    "signUpButton": "Kostenlos anmelden",
+    "noCreditCardRequired": "* Keine Kreditkarte notwendig"
+  },
+  "Quote": {
+    "title": "Sparen Sie Geld mit unserer Restaurants Lösung, die erschwingliche Dine-In-, Liefer- und Take-Out-Dienste ohne die hohen Provisionen von Drittanbieter-Apps wie Eat bietet.",
+    "subline": "Erzielen Sie Top-Rankings in der Google-Suche, indem wir Ihre Restaurantseite optimieren, damit Sie mehr Besucher, Gäste und Gewinne anziehen können.",
+    "cardTitle": "Richten Sie jetzt Ihre Online-Lieferung für Ihr Restaurant ein",
+    "cardSubline": "Unser Service rationalisiert den Prozess der Erstellung von Online-Lieferdiensten für Restaurants und macht es für Einzelpersonen mühelos, ihren Online-Lieferdienst, Take-Away-Service, Dine-In-Service oder ihre digitale Speisekarte mit nur wenigen Klicks einzurichten. Mit unserer benutzerfreundlichen Plattform und der intuitiven Oberfläche können Sie Ihren Service einfach konfigurieren und starten und Ihren Kunden ein nahtloses Erlebnis bieten. Keine komplexe Einrichtung erforderlich!",
+    "button": "Erstellen Sie Ihre Online-Lieferung"
+  },
+  "Grid": {
+    "title": "Hol dir Gimme, um alle Lösungen für dein digitales Wachstum zu erhalten",
+    "goal": "Unser Ziel ist es, das tägliche Leben von Restaurantbesitzern zu vereinfachen und den Gewinn zu steigern.",
+    "getStarted": "Loslegen",
+    "feature1Title": "Bestellen und bezahlen Sie direkt im Restaurant",
+    "feature1Description": "Maximieren Sie das Bestellpotenzial und machen Sie es Ihren Kunden leicht, genau das zu bekommen, was sie wollen.",
+    "feature2Title": "Erhalten Sie Ihre eigene Restaurant- und Instagram-Seite, die komplett auf Ihre Bedürfnisse zugeschnitten ist",
+    "feature2Description": "Hol dir deine eigene Restaurant- und Instagram-Seite, die komplett auf deine Bedürfnisse zugeschnitten ist.",
+    "feature3Title": "Digitale Speisekarten",
+    "feature3Description": "Machen Sie es Ihren Gästen leicht, den QR-Code zu scannen und sofort unsere vielfältige Speisekarte für zusätzliche Bestellinspiration einzusehen.",
+    "feature4Title": "Zum Mitnehmen",
+    "feature4Description": "Passen Sie die Bestellseite Ihres Restaurants an Ihre Wünsche an. Ermöglichen Sie Ihren Kunden, für ihre bevorzugte Abholzeit vorzubestellen und direkt zu bezahlen.",
+    "feature5Title": "Lieferung",
+    "feature5Description": "Durch die Integration mit Ihrer Website können Sie Ihre Kunden über Ihre eigene Lieferplattform beliefern und so Gebühren für Dritte sparen und die Kontrolle über Ihre Qualität behalten.",
+    "feature6Title": "Kundenbindungs-programm",
+    "feature6Description": "Ein Kundenbindungsprogramm, das über die gesamte Lebensdauer 3x mehr einbringt und Gäste zu Markentreuen macht."
+  }
+}

@@ -2,8 +2,10 @@ import Image from "next/image";
 import onlineDelivery from "@/public/online-delivery.png";
 import { Unbounded } from "next/font/google";
 import vespa from "@/public/svg-assets/vespa.svg";
+import { useTranslations } from "next-intl";
 const unbounded = Unbounded({ subsets: ["latin"] });
 export default function OnlineDelivery() {
+  const t = useTranslations("Quote");
   return (
     <div className="text-white flex flex-col md:flex-row justify-center items-center gap-24">
       <div className="relative basis-1/2">
@@ -23,23 +25,13 @@ export default function OnlineDelivery() {
       </div>
       <div className="basis-1/2">
         <h2 className={`${unbounded.className} text-3xl font-bold`}>
-          Set Up Your Online Delivery For Your Restaurant Now
+          {t("cardTitle")}
         </h2>
-        <h3 className="pt-8">
-          Our service streamlines the online delivery for restaurants creation
-          process, making it effortless for individuals to set up their online
-          delivery, takeaway, dine-in service, or digital menu with just a few
-          clicks.
-        </h3>
-        <h4 className="pt-8">
-          With our user-friendly platform and intuitive interface, you can
-          easily configure and launch your service, ensuring a seamless
-          experience for your customers. No complex setup required!
-        </h4>
+        <h3 className="pt-8">{t("cardSubline")}</h3>
         <button
           className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold my-12 hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
         >
-          Create Your Online Delivery
+          {t("button")}
         </button>
       </div>
     </div>

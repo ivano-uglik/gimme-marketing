@@ -8,57 +8,53 @@ import gridSvg from "@/public/svg-assets/grid-svg.svg";
 import gradient from "@/public/gradient.svg";
 import { Unbounded } from "next/font/google";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 const unbounded = Unbounded({ subsets: ["latin"] });
 
-const gridItems = [
-  {
-    id: 1,
-    title: "Order and Pay Directly in Restaurant",
-    description:
-      "Maximize ordering potential and make it easy for your customers to get exactly what they want.",
-    svg: svgOne,
-  },
-  {
-    id: 2,
-    title: "Delivery",
-    description:
-      "By integrating with your website, you can serve your customers through your own delivery platform, saving on third-party fees and retaining control over your quality.",
-    svg: svgTwo,
-  },
-  {
-    id: 3,
-    title: "Takeaway",
-    description:
-      "Customize your restaurant's ordering page to your preferences, allow customers to pre-order for their preferred pickup time and make payments.",
-    svg: svgThree,
-  },
-];
-
-const gridItemsTwo = [
-  {
-    id: 1,
-    title: "Loyalty Programs",
-    description:
-      "A loyalty program that generates 3x more across its lifetime, turning guests into brand loyalists.",
-    svg: svgFour,
-  },
-  {
-    id: 2,
-    title: "Custom Website and Instagram page",
-    description:
-      "Get your own restaurant and instagram page completely tailored for your needs.",
-    svg: svgFive,
-  },
-  {
-    id: 3,
-    title: "Digital menus",
-    description:
-      "Make it easy for your guests to quickly scan the QR code and instantly view our diverse menu for additional ordering inspiration",
-    svg: svgSix,
-  },
-];
-
 export default function Grid() {
+  const t = useTranslations("Grid");
+
+  const gridItems = [
+    {
+      id: 1,
+      title: t("feature1Title"),
+      description: t("feature1Description"),
+      svg: svgOne,
+    },
+    {
+      id: 2,
+      title: t("feature5Title"),
+      description: t("feature5Description"),
+      svg: svgTwo,
+    },
+    {
+      id: 3,
+      title: t("feature4Title"),
+      description: t("feature4Description"),
+      svg: svgThree,
+    },
+  ];
+
+  const gridItemsTwo = [
+    {
+      id: 1,
+      title: t("feature6Title"),
+      description: t("feature6Description"),
+      svg: svgFour,
+    },
+    {
+      id: 2,
+      title: t("feature2Title"),
+      description: t("feature2Description"),
+      svg: svgFive,
+    },
+    {
+      id: 3,
+      title: t("feature3Title"),
+      description: t("feature3Description"),
+      svg: svgSix,
+    },
+  ];
   return (
     <div className="text-white py-24 md:px-0">
       <div className="text-center pb-0 md:pb-32">
@@ -67,24 +63,21 @@ export default function Grid() {
             className={`${unbounded.className} font-bold text-2xl lg:text-4xl leading-[1.55] md:leading-relaxed lg:w-2/3 xl:w-1/2`}
             id="features"
           >
-            Get Gimme to Get All Solutions For Your Digital Growth
+            {t("title")}
           </h2>
         </div>
         <div className="flex justify-center pt-4">
-          <h3 className="lg:w-1/3 xl:w-1/4">
-            Our goal is to simplify the daily life of restaurant owners and
-            increase profits.
-          </h3>
+          <h3 className="lg:w-1/3 xl:w-1/4">{t("goal")}</h3>
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-4 pt-8 md:pt-0">
         {gridItems.map((item) => (
           <div
             key={item.id}
-            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between basis-1/3"
+            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between w-1/3"
           >
             <div className="px-8">
-              <h2 className={`${unbounded.className} font-bold text-2xl`}>
+              <h2 className={`${unbounded.className} font-bold text-2xl `}>
                 {item.title}
               </h2>
               <p>{item.description}</p>
@@ -102,7 +95,7 @@ export default function Grid() {
         {gridItemsTwo.map((item) => (
           <div
             key={item.id}
-            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between basis-1/3"
+            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between w-1/3"
           >
             <div className="px-8">
               <h2 className={`${unbounded.className} font-bold text-2xl`}>

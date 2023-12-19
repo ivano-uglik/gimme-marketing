@@ -4,8 +4,12 @@ import svg2 from "@/public/svg-assets/section-2-2.svg";
 import maniaci from "@/public/maniaci-gaspare.png";
 import { Unbounded } from "next/font/google";
 import chezGaspi from "@/public/chez-gaspi.svg";
+import { useTranslations } from "next-intl";
+
 const unbounded = Unbounded({ subsets: ["latin"] });
+
 export default function Quote() {
+  const t = useTranslations("Quote");
   return (
     <div>
       <div className="relative flex justify-center items-center">
@@ -64,18 +68,11 @@ export default function Quote() {
           <h2
             className={`${unbounded.className} font-bold text-xl md:text-3xl`}
           >
-            Save on fees with our restaurant solution without high app
-            commissions like Eat.
+            {t("title")}
           </h2>
         </div>
         <div className="md:w-[40%]">
-          <h3 className="md:text-2xl">
-            Achieve top Google search rankings as we optimize your
-            <span className="mx-2 px-2 rounded-lg bg-white text-gimme whitespace-nowrap">
-              SEO restaurant page
-            </span>{" "}
-            making it easier to attract more views, guests, and profits.
-          </h3>
+          <h3 className="md:text-2xl">{t("subline")}</h3>
         </div>
       </div>
     </div>
