@@ -8,6 +8,7 @@ import HospitalityBusinesses from "./HospitalityBusinesses";
 import Video from "./Video";
 import Pricing from "./Pricing";
 import Lenis from "@studio-freight/lenis";
+import { useTranslations } from "next-intl";
 // import { useEffect } from "react";
 export default function Home() {
   // useEffect(() => {
@@ -19,6 +20,8 @@ export default function Home() {
   //   }
   //   requestAnimationFrame(raf);
   // });
+  const t = useTranslations("Restaurants");
+  const b = useTranslations("BrandGuestExperience");
 
   return (
     <>
@@ -27,7 +30,17 @@ export default function Home() {
       <SavingsCalculator />
       <OnlineDelivery />
       <Grid />
-      <HospitalityBusinesses />
+      <HospitalityBusinesses
+        title={t("title")}
+        subline={t("subline")}
+        restaurant={t("restaurants")}
+        bars={t("bars")}
+        hotels={t("hotels")}
+        retailStores={t("retailStores")}
+        brandTitle={b("title")}
+        brandSubline={b("subline")}
+        brandButton={b("button")}
+      />
       <Video />
       <Pricing />
       <FAQ />

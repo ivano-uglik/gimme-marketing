@@ -74,7 +74,7 @@ export default function Grid() {
         {gridItems.map((item) => (
           <div
             key={item.id}
-            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between w-1/3"
+            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between lg:w-1/3"
           >
             <div className="px-8">
               <h2 className={`${unbounded.className} font-bold text-2xl `}>
@@ -95,7 +95,7 @@ export default function Grid() {
         {gridItemsTwo.map((item) => (
           <div
             key={item.id}
-            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between w-1/3"
+            className="border border-[#5F479B] rounded-3xl pt-8 flex flex-col justify-between lg:w-1/3"
           >
             <div className="px-8">
               <h2 className={`${unbounded.className} font-bold text-2xl`}>

@@ -28,5 +28,18 @@
     "feature2Description": "Get your own restaurant and Instagram page completely tailored for your needs.",
     "feature3Title": "Digital menus",
     "feature3Description": "Make it easy for your guests to quickly scan the QR code and instantly view our diverse menu for additional ordering inspiration"
+  },
+  "Restaurants": {
+    "title": "Tailored for Restaurants, Bars, Hotels, retail stores and much more",
+    "subline": "Streamline operations: manage your digital menu, take-away, delivery, and access clear daily and monthly statements from one place",
+    "restaurants": "Restaurants",
+    "bars": "Bars",
+    "Hotels": "Hotels",
+    "retailStores": "Retail Stores"
+  },
+  "BrandGuestExperience": {
+    "title": "A Brand Guest Experience That Converts",
+    "subline": "Customization is key, and at Gimme, we understand the personal touch. Create an app that resonates with your brand's voice, colors, and imagery, making every tap, swipe, and scroll uniquely yours",
+    "button": "Customize your Online Restaurant Now"
   }
 }

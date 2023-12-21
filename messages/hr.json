@@ -28,5 +28,18 @@
     "feature5Description": "Integracijom s vašom web-stranicom možete služiti svojim klijentima putem vlastite platforme za dostavu, štedeći na naknadama trećih strana i zadržavajući kontrolu nad kvalitetom.",
     "feature6Title": "Program lojalnosti",
     "feature6Description": "Program lojalnosti koji generira 3 puta više tijekom svog životnog vijeka, pretvarajući goste u lojalne obožavatelje brenda."
+  },
+  "Restaurants": {
+    "title": "Prilagođeno restoranima, barovima, hotelima, maloprodajnim objektima i još mnogo toga",
+    "subline": "Pojednostavite poslovanje: upravljajte svojim digitalnim menijem, hranom za ponijeti, dostavom i pristupite jasnim dnevnim i mjesečnim finansijskim izvještajima s jednog mjesta",
+    "restaurants": "Restaurants",
+    "bars": "Bars",
+    "Hotels": "Hotels",
+    "retailStores": "Retail Stores"
+  },
+  "BrandGuestExperience": {
+    "title": " Personalizirano samo za Vaš restoran",
+    "subline": "Personalizirani izgled vaseg restorana je ključan. U Gimmeu razumijemo lični dodir. Kreirajte aplikaciju koja rezonira s glasom, bojama i slikama vašeg brenda, čineći svaki dodir, prevlačenje i pomicanje jedinstvenim vašim",
+    "button": "Prilagodite svoj online restoran odmah"
   }
 }

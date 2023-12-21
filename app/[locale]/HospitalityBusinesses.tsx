@@ -14,7 +14,17 @@ import loyaltyProgram from "@/public/loyalty-programs.png";
 import confetti from "@/public/svg-assets/confetti.svg";
 import inBetween from "@/public/svg-assets/select2.svg";
 const unbounded = Unbounded({ subsets: ["latin"] });
-export default function HospitalityBusinesses() {
+export default function HospitalityBusinesses({
+  title,
+  subline,
+  restaurant,
+  bars,
+  hotels,
+  retailStores,
+  brandTitle,
+  brandSubline,
+  brandButton,
+}: any) {
   const [active, setActive] = useState(1);
 
   const image =
@@ -46,17 +56,13 @@ export default function HospitalityBusinesses() {
         </div>
         <div className="basis-1/2">
           <h2 className={`${unbounded.className} text-3xl font-bold `}>
-            A Brand Guest Experience That Converts
+            {brandTitle}
           </h2>
-          <h3 className="pt-4">
-            {
-              "Customization is key, and at Gimme, we understand the personal touch. Create an app that resonates with your brand's voice, colors, and imagery, making every tap, swipe, and scroll uniquely yours"
-            }
-          </h3>
+          <h3 className="pt-4">{brandSubline}</h3>
           <button
             className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
           >
-            Customize Your Online Restaurant Now
+            {brandButton}
           </button>
         </div>
       </div>
@@ -66,15 +72,12 @@ export default function HospitalityBusinesses() {
             <h2
               className={`${unbounded.className} font-bold text-3xl md:text-4xl text-center md:w-2/3 leading-relaxed px-2 md:px-0`}
             >
-              Tailored for Restaurants, Bars, Hotels, retail stores and much
-              more
+              {title}
             </h2>
           </div>
           <div className="flex justify-center">
             <h3 className="leading-relaxed px-2 md:px-0 md:w-1/2 text-center pt-4 lg:text-xl">
-              Streamline operations: manage your digital menu, take-away,
-              delivery, and access clear daily and monthly financial statements
-              from one place
+              {subline}
             </h3>
           </div>
           <div className="flex justify-center gap-8 py-16 flex-wrap">
@@ -88,7 +91,7 @@ export default function HospitalityBusinesses() {
               }`}
               onClick={() => setActive(1)}
             >
-              Restaurants
+              {restaurant}
             </button>
             <button
               className={`${
@@ -100,7 +103,7 @@ export default function HospitalityBusinesses() {
               }`}
               onClick={() => setActive(2)}
             >
-              Bars
+              {bars}
             </button>
             <button
               className={`${
@@ -124,7 +127,7 @@ export default function HospitalityBusinesses() {
               }`}
               onClick={() => setActive(4)}
             >
-              Retail Stores
+              {retailStores}
             </button>
           </div>
         </div>

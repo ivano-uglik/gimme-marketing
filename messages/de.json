@@ -28,5 +28,18 @@
     "feature5Description": "Durch die Integration mit Ihrer Website können Sie Ihre Kunden über Ihre eigene Lieferplattform beliefern und so Gebühren für Dritte sparen und die Kontrolle über Ihre Qualität behalten.",
     "feature6Title": "Kundenbindungs-programm",
     "feature6Description": "Ein Kundenbindungsprogramm, das über die gesamte Lebensdauer 3x mehr einbringt und Gäste zu Markentreuen macht."
+  },
+  "Restaurants": {
+    "title": "Maßgeschneidert für Restaurants, Bars, Hotels, Einzelhandelsgeschäfte und vieles mehr",
+    "subline": "Optimieren Sie Ihre Prozesse: Verwalten Sie Ihr digitales Menü, Ihre Mitnahme- und Lieferdienste und greifen Sie von einem Ort aus auf klare Tages- und Monatsabrechnungen zu.",
+    "restaurants": "Restaurants",
+    "bars": "Bars",
+    "Hotels": "Hotels",
+    "retailStores": "Retail Stores"
+  },
+  "BrandGuestExperience": {
+    "title": "EIN MARKENGESCHÜTZTES GÄSTEERLEBNIS, DAS KONVERTIERT",
+    "subline": "Personalisierung ist der Schlüssel, und wir bei Gimme verstehen die persönliche Note. Erstellen Sie eine App, die die Stimme, Farben und die Bildsprache Ihrer Marke widerspiegelt, sodass jedes Tippen, Wischen und Scrollen zu einem einzigartigen Erlebnis wird.",
+    "button": "Gestalten Sie jetzt Ihr Online-Restaurant"
   }
 }
