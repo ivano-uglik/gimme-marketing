@@ -41,5 +41,36 @@
     "title": "A Brand Guest Experience That Converts",
     "subline": "Customization is key, and at Gimme, we understand the personal touch. Create an app that resonates with your brand's voice, colors, and imagery, making every tap, swipe, and scroll uniquely yours",
     "button": "Customize your Online Restaurant Now"
+  },
+  "RestaurantLoyaltySoftware": {
+    "title": "Enhance Guest Loyalty with Our Restaurant Loyalty Software",
+    "subline": "More than 75% of your future business comes from repeat guests. Gimme helps you discover more of them through a personalized loyalty program that cultivates a devoted following. Provide your guests with incentives to make frequent purchases.",
+    "button": "Customize Your Online Restaurant Now"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subline": "Learn how to set up your digital presence for your restaurant online for FREE in 60 seconds!",
+    "FAQ1Title": "How can Gimme help with staff shortage due to seasonality in the mountains",
+    "FAQ1Subline": "If peak times are overwhelming your staff, Yoordi, our integrated tool, can assist you in simplifying your daily operations. Yoordi efficiently serves and settles all tables for you simultaneously, providing relief during busy seasons.",
+    "FAQ2Title": "Can you provide some insights into revenue growth with Gimme?",
+    "FAQ2Subline": "Yes, Gimme customers have seen an average of 42% monthly revenue growth, demonstrating the positive impact of our services on businesses.",
+    "FAQ3Title": "What is order throttling, and how does it benefit businesses?",
+    "FAQ3Subline": "Order throttling is a crucial feature that prevents locations from experiencing a backlog of orders, ensuring a smooth customer service experience. It helps avoid issues like orders not being ready, long lines, and parking problems, providing a better overall experience for both the restaurant and its customers.",
+    "FAQ4Title": "Is my business concept unique?",
+    "FAQ4Subline": "We would love to be a part of your vision and collaborate with you to create a custom solution for your unique business idea.",
+    "FAQ5Title": "What is an online ordering system for restaurants, and why is it essential?",
+    "FAQ5Subline": "An online ordering system allows customers to place orders without being physically present at the restaurant. It's a vital tool as customers increasingly expect the convenience of ordering online, and not offering this option can result in losing potential customers to competitors.",
+    "FAQ6Title": "What software do restaurants use to take orders?",
+    "FAQ6Subline": "Restaurants use Gimme to design beautiful ordering apps and websites, which seamlessly transmit online orders directly to their Point of Sale (POS) system.",
+    "FAQ7Title": "What types of online ordering systems are available?",
+    "FAQ7Subline": "Gimme caters to small to medium-sized restaurants looking to initiate online orders. We aggregate orders from various touchpoints, including websites, apps, kiosks, and third-party marketplace apps.",
+    "FAQ8Title": "Does Gimme offer delivery management?",
+    "FAQ8Subline": "Yes, Gimme provides comprehensive delivery management that allows you to set delivery rules, making it suitable for businesses that offer delivery services to their customers.",
+    "FAQ9Title": "How can Loyalty Base Programs benefit my restaurant?",
+    "FAQ9Subline": "Loyalty Base Programs, such as 'Spend X to get Y,' enable you to create a custom loyalty program that encourages repeat business and grows your customer following. These programs can include bonuses like double points days or wallet drops to keep your guests engaged.",
+    "FAQ10Title": "Can I customize my ordering app with Gimme?",
+    "FAQ10Subline": "Absolutely. Ordering is personal, and so are our customizations. You can build an app that aligns with your brand's voice, colors, and imagery, ensuring a unique and consistent customer experience.",
+    "FAQ11Title": "What can I expect from the online ordering experience with Gimme?",
+    "FAQ11Subline": "Gimme offers a seamless online ordering experience designed to keep guests checking out with zero issues, ensuring a smooth and efficient process for both the business and the customer."
   }
 }

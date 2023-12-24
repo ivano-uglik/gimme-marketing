@@ -41,5 +41,36 @@
     "title": "EIN MARKENGESCHÜTZTES GÄSTEERLEBNIS, DAS KONVERTIERT",
     "subline": "Personalisierung ist der Schlüssel, und wir bei Gimme verstehen die persönliche Note. Erstellen Sie eine App, die die Stimme, Farben und die Bildsprache Ihrer Marke widerspiegelt, sodass jedes Tippen, Wischen und Scrollen zu einem einzigartigen Erlebnis wird.",
     "button": "Gestalten Sie jetzt Ihr Online-Restaurant"
+  },
+  "RestaurantLoyaltySoftware": {
+    "title": "Verbessern Sie die Gäste Treue mit unserer Restaurant-Loyalitätssoftware",
+    "subline": "Mehr als 75 % Ihres zukünftigen Geschäfts kommt von Stammgästen. Lunchbox hilft Ihnen, mehr von ihnen durch ein personalisiertes Treueprogramm zu entdecken, das eine treue Anhängerschaft kultiviert. Bieten Sie Ihren Gästen Anreize für häufige Einkäufe",
+    "button": "Erstellen Treueprogramme für Ihr Restaurant"
+  },
+  "FAQ": {
+    "title": "Häufige Fragen",
+    "subline": "Erfahren Sie, wie Sie Ihre digitale Präsenz für Ihr Restaurant online KOSTENLOS in 60 Sekunden einrichten können!",
+    "FAQ1Title": "Wie kann Gimme bei Personalengpässen aufgrund der Saisonalität in den Bergen helfen?",
+    "FAQ1Subline": "Wenn Ihr Personal in Spitzenzeiten überfordert ist, kann Gimme, unser integriertes Tool, Ihnen helfen, Ihre täglichen Abläufe zu vereinfachen. Gimme bedient und rechnet alle Tische gleichzeitig für Sie ab und entlastet Sie so in der Hochsaison.",
+    "FAQ2Title": "Können Sie einige Einblicke in das Umsatzwachstum mit Gimme geben?",
+    "FAQ2Subline": "Ja, Gimme-Kunden haben ein durchschnittliches monatliches Umsatzwachstum von 42 % verzeichnet, was die positiven Auswirkungen unserer Dienste auf Unternehmen belegt.",
+    "FAQ3Title": "Was ist Auftrag Drosselung und welche Vorteile bietet sie Unternehmen?",
+    "FAQ3Subline": "Die Auftrags Drosselung ist eine wichtige Funktion, die verhindert, dass es an den Standorten zu einem Rückstau von Bestellungen kommt, und so einen reibungslosen Kundenservice gewährleistet. Sie hilft, Probleme zu vermeiden, wie z. B. nicht fertiggestellte Bestellungen, lange Warteschlangen und Parkplatzprobleme, und sorgt so für ein besseres Gesamtergebnis sowohl für das Restaurant als auch für seine Kunden.",
+    "FAQ4Title": "Ist mein Geschäftskonzept einzigartig?",
+    "FAQ4Subline": "Wir würden gerne Teil Ihrer Vision sein und mit Ihnen zusammenarbeiten, um eine maßgeschneiderte Lösung für Ihre einzigartige Geschäftsidee zu entwickeln.",
+    "FAQ5Title": "Was ist ein Online-Bestellsystem für Restaurants, und warum ist es so wichtig?",
+    "FAQ5Subline": "Ein Online-Bestellsystem ermöglicht es Kunden, Bestellungen aufzugeben, ohne im Restaurant anwesend zu sein. Es ist ein unverzichtbares Instrument, da die Kunden zunehmend die Bequemlichkeit der Online-Bestellung erwarten, und wenn diese Option nicht angeboten wird, kann dies dazu führen, dass potenzielle Kunden an die Konkurrenz verloren gehen.",
+    "FAQ6Title": "Welche Software verwenden Restaurants, um Bestellungen entgegenzunehmen?",
+    "FAQ6Subline": "Restaurants nutzen Gimme, um ansprechende Bestell-Apps und Websites zu entwickeln, die Online-Bestellungen nahtlos direkt an ihr Point of Sale (POS)-System weiterleiten.",
+    "FAQ7Title": "Welche Arten von Online-Bestellsystemen gibt es?",
+    "FAQ7Subline": "Gimme richtet sich an kleine bis mittelgroße Restaurants, die Online-Bestellungen initiieren möchten. Wir sammeln Bestellungen von verschiedenen Berührungspunkten, einschließlich Websites, Apps, Kiosken und Marktplatz-Apps von Drittanbietern.",
+    "FAQ8Title": "Bietet Gimme auch Liefermanagement an?",
+    "FAQ8Subline": "Ja, Gimme bietet ein umfassendes Liefermanagement, das es Ihnen ermöglicht, Liefer Regeln festzulegen, so dass es für Unternehmen geeignet ist, die ihren Kunden Lieferdienste anbieten.",
+    "FAQ9Title": "Wie kann mein Restaurant von Treuebasisprogrammen profitieren?",
+    "FAQ9Subline": "Kundenbindungsprogramme wie 'Geben Sie X aus, um Y zu erhalten' ermöglichen es Ihnen, ein individuelles Kundenbindungsprogramm zu erstellen, das Wiederholungsbesuche fördert und Ihre Kundenzahl erhöht. Diese Programme können Boni wie doppelte Punkte Tage oder Geldbeutel Abwürfe beinhalten, um Ihre Gäste zu binden.",
+    "FAQ10Title": "Kann ich meine Bestell-App mit Gimme individuell anpassen?",
+    "FAQ10Subline": "Auf jeden Fall. Bestellungen sind persönlich, und das gilt auch für unsere Anpassungen. Sie können eine App erstellen, die mit der Stimme, den Farben und der Bildsprache Ihrer Marke übereinstimmt und so ein einzigartiges und einheitliches Kundenerlebnis gewährleistet.",
+    "FAQ11Title": "Was kann ich von der Online-Bestellung mit Gimme erwarten?",
+    "FAQ11Subline": "Gimme bietet eine nahtlose Online-Bestellung, die darauf ausgelegt ist, dass Gäste ohne Probleme auschecken können, um einen reibungslosen und effizienten Prozess sowohl für das Unternehmen als auch für den Kunden zu gewährleisten."
   }
 }

@@ -22,7 +22,8 @@ export default function Home() {
   // });
   const t = useTranslations("Restaurants");
   const b = useTranslations("BrandGuestExperience");
-
+  const l = useTranslations("RestaurantLoyaltySoftware");
+  const faq = useTranslations("FAQ");
   return (
     <>
       <HeroSection />
@@ -40,10 +41,38 @@ export default function Home() {
         brandTitle={b("title")}
         brandSubline={b("subline")}
         brandButton={b("button")}
+        LoyaltyTitle={l("title")}
+        LoyaltySubline={l("subline")}
+        LoyaltyButton={l("button")}
       />
       <Video />
       <Pricing />
-      <FAQ />
+      <FAQ
+        title={faq("title")}
+        subline={faq("subline")}
+        FAQ1Title={faq("FAQ1Title")}
+        FAQ1Subline={faq("FAQ1Subline")}
+        FAQ2Title={faq("FAQ2Title")}
+        FAQ2Subline={faq("FAQ2Subline")}
+        FAQ3Title={faq("FAQ3Title")}
+        FAQ3Subline={faq("FAQ3Subline")}
+        FAQ4Title={faq("FAQ4Title")}
+        FAQ4Subline={faq("FAQ4Subline")}
+        FAQ5Title={faq("FAQ5Title")}
+        FAQ5Subline={faq("FAQ5Subline")}
+        FAQ6Title={faq("FAQ6Title")}
+        FAQ6Subline={faq("FAQ6Subline")}
+        FAQ7Title={faq("FAQ7Title")}
+        FAQ7Subline={faq("FAQ7Subline")}
+        FAQ8Title={faq("FAQ8Title")}
+        FAQ8Subline={faq("FAQ8Subline")}
+        FAQ9Title={faq("FAQ9Title")}
+        FAQ9Subline={faq("FAQ9Subline")}
+        FAQ10Title={faq("FAQ10Title")}
+        FAQ10Subline={faq("FAQ10Subline")}
+        FAQ11Title={faq("FAQ11Title")}
+        FAQ11Subline={faq("FAQ11Subline")}
+      />
     </>
   );
 }

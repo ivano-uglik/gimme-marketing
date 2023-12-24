@@ -41,5 +41,36 @@
     "title": " Personalizirano samo za Vaš restoran",
     "subline": "Personalizirani izgled vaseg restorana je ključan. U Gimmeu razumijemo lični dodir. Kreirajte aplikaciju koja rezonira s glasom, bojama i slikama vašeg brenda, čineći svaki dodir, prevlačenje i pomicanje jedinstvenim vašim",
     "button": "Prilagodite svoj online restoran odmah"
+  },
+  "RestaurantLoyaltySoftware": {
+    "title": "Povećajte lojalnost gostiju pomoću našeg softvera za vjernost restorana",
+    "subline": "Više od 75% vašeg budućeg poslovanja dolazi od stalnih gostiju. Lunchbox vam pomaže da otkrijete više njih kroz personalizirani program lojalnosti koji njeguje odane sljedbenike. Omogućite svojim gostima poticaje za česte kupovine",
+    "button": "Kreirajte program lojalnosti za svoj restoran"
+  },
+  "FAQ": {
+    "title": "Često postavljana pitanja",
+    "subline": "Naučite kako postaviti svoje digitalno prisustvo za svoj restoran online BESPLATNO u 60 sekundi!",
+    "FAQ1Title": "Kako Gimme može pomoći sa nedostatkom osoblja zbog sezonskog karaktera u planinama",
+    "FAQ1Subline": "Ako vršna vremena opterećuju vaše osoblje, Yoordi, naš integrirani alat, može vam pomoći u pojednostavljenju vaših svakodnevnih operacija. Gimme efikasno služi i sređuje sve stolove za vas istovremeno, pružajući olakšanje tokom užurbane sezone.",
+    "FAQ2Title": "Možete li dati neke uvide u rast prihoda s Gimmeom?",
+    "FAQ2Subline": "Da, kupci Gimme-a bilježe prosječan mjesečni rast prihoda od 42%, što pokazuje pozitivan uticaj naših usluga na poslovanje.",
+    "FAQ3Title": "Šta je smanjenje narudžbi i kakve koristi od toga ima preduzeća?",
+    "FAQ3Subline": "Prigušivanje narudžbi je ključna karakteristika koja sprečava da lokacije dožive zaostale narudžbe, osiguravajući neometano iskustvo korisničke usluge. Pomaže u izbjegavanju problema kao što su narudžbe koje nisu spremne, dugi redovi i problemi s parkiranjem, pružajući bolje cjelokupno iskustvo i restoranu i njegovim klijentima.",
+    "FAQ4Title": "Da li je moj poslovni koncept jedinstven?",
+    "FAQ4Subline": "Voljeli bismo da budemo dio vaše vizije i da sarađujemo s vama na kreiranju prilagođenog rješenja za vašu jedinstvenu poslovnu ideju.",
+    "FAQ5Title": "Šta je sistem online naručivanja u restoranima i zašto je neophodan?",
+    "FAQ5Subline": "Sistem za naručivanje putem interneta omogućava kupcima da naruče bez fizičkog prisustva u restoranu. To je vitalno sredstvo jer kupci sve više očekuju pogodnost naručivanja putem interneta, a nenuđenje ove opcije može rezultirati gubitkom potencijalnih kupaca zbog konkurencije.",
+    "FAQ6Title": "Koji softver koriste restorani za primanje narudžbi?",
+    "FAQ6Subline": "Restorani koriste Gimme da dizajniraju prekrasne aplikacije za naručivanje i web stranice, koje neprimjetno prenose online narudžbe direktno na njihov sistem prodajnog mjesta (POS).",
+    "FAQ7Title": "Koje vrste sistema za online naručivanje su dostupne?",
+    "FAQ7Subline": "Gimme služi malim i srednjim restoranima koji žele pokrenuti online narudžbe. Mi agregiramo narudžbe s različitih dodirnih tačaka, uključujući web stranice, aplikacije, kioske i aplikacije na tržištu trećih strana.",
+    "FAQ8Title": "Nudi li Gimme upravljanje isporukom?",
+    "FAQ8Subline": "Da, Gimme pruža sveobuhvatno upravljanje isporukom koje vam omogućava da postavite pravila isporuke, što ga čini pogodnim za kompanije koje nude usluge dostave svojim klijentima.",
+    "FAQ9Title": "Kako programi lojalnosti mogu koristiti mom restoranu?",
+    "FAQ9Subline": "Osnovni programi lojalnosti, kao što je 'Potrošite X da biste dobili Y', omogućavaju vam da kreirate prilagođeni program lojalnosti koji potiče ponovno poslovanje i povećava broj vaših kupaca. Ovi programi mogu uključivati bonuse kao što su dani sa duplim bodom ili sniženja novčanika kako bi vaši gosti bili angažirani.",
+    "FAQ10Title": "Mogu li prilagoditi svoju aplikaciju za naručivanje pomoću Gimmea?",
+    "FAQ10Subline": "Apsolutno. Naručivanje je lično, kao i naša prilagođavanja. Možete napraviti aplikaciju koja je u skladu s glasom, bojama i slikom vašeg brenda, osiguravajući jedinstveno i dosljedno korisničko iskustvo.",
+    "FAQ11Title": "Šta mogu očekivati od iskustva online naručivanja sa Gimmeom?",
+    "FAQ11Subline": "Gimme nudi besprijekorno iskustvo online naručivanja dizajnirano da zadrži goste da odjavljuju bez problema, osiguravajući nesmetan i efikasan proces i za poslovanje i za kupca."
   }
 }

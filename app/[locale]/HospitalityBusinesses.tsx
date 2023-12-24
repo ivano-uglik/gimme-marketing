@@ -24,6 +24,9 @@ export default function HospitalityBusinesses({
   brandTitle,
   brandSubline,
   brandButton,
+  LoyaltyTitle,
+  LoyaltySubline,
+  LoyaltyButton,
 }: any) {
   const [active, setActive] = useState(1);
 
@@ -115,7 +118,7 @@ export default function HospitalityBusinesses({
               }`}
               onClick={() => setActive(3)}
             >
-              Hotels
+              {hotels}
             </button>
             <button
               className={`${
@@ -172,17 +175,13 @@ export default function HospitalityBusinesses({
           <h2
             className={`${unbounded.className} text-3xl font-bold leading-relaxed`}
           >
-            Enhance Guest Loyalty with Our Restaurant Loyalty Software
+            {LoyaltyTitle}
           </h2>
-          <h3 className="pt-4">
-            {
-              "More than 75% of your future business comes from repeat guests. Gimme helps you discover more of them through a personalized loyalty program that cultivates a devoted following. Provide your guests with incentives to make frequent purchases."
-            }
-          </h3>
+          <h3 className="pt-4">{LoyaltySubline}</h3>
           <button
             className={`${unbounded.className} px-4 py-2 bg-white rounded-full text-gimme font-semibold mt-4 text-xs md:text-base hover:text-white hover:bg-indigo-700 transition-all duration-300 ease-in-out`}
           >
-            Customize Your Online Restaurant Now
+            {LoyaltyButton}
           </button>
         </div>
       </div>
